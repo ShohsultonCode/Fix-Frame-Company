@@ -1,0 +1,424 @@
+$lg: 992px;
+$md: 768px;
+$sm: 576px;
+$xl: 1200px;
+
+$text-color: #646464;
+$title-color: #181818;
+$btn-bg-color: #ff0000;
+$contact-title-color: #ffffff;
+$input__border-color: #969696;
+$services__first-background-color: #001460;
+$services__second-background-color: rgba(0, 41, 198, 0.71);
+
+@mixin fontFamily($font) {
+  font-family: $font;
+}
+
+@mixin headingFonts(
+  $color: $input__border-color,
+  $fontSize: 18px,
+  $fontWeight: 400,
+  $lineHeight: default,
+  $textTransform: capitalize
+) {
+  color: $color;
+  margin: 0 default;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  font-weight: $fontWeight;
+  text-transform: $textTransform;
+}
+
+@mixin xl {
+  @media only screen and (max-width: $xl) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media only screen and (max-width: $lg) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media only screen and (max-width: $md) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media only screen and (max-width: $sm) {
+    @content;
+  }
+}
+
+@mixin transition($duration) {
+  transition: $duration;
+}
+
+@mixin gridLayout(
+  $grid: grid,
+  $gridTemplateCol: 3,
+  $jc: default,
+  $ai: default,
+  $gap: default
+) {
+  gap: $gap;
+  display: $grid;
+  align-items: $ai;
+  justify-content: $jc;
+  @if $gridTemplateCol > 1 {
+    grid-template-columns: repeat($gridTemplateCol, auto);
+  } @else {
+    grid-template-columns: auto;
+  }
+}
+
+@mixin flexLayout(
+  $flex: flex,
+  $jc: default,
+  $ai: default,
+  $gap: default,
+  $flexFlow: nowrap row
+) {
+  gap: $gap;
+  display: $flex;
+  align-items: $ai;
+  justify-content: $jc;
+  flex-flow: $flexFlow;
+}
+
+@mixin Input(
+  $color: $input__border-color,
+  $placeholderColor: $input__border-color,
+  $bgColor: default,
+  $border: 1px solid $input__border-color,
+  $borderRadius: 4px
+) {
+  color: $color;
+  outline: none;
+  border: $border;
+  background-color: $bgColor;
+  border-radius: $borderRadius;
+  &::placeholder {
+    color: $placeholderColor;
+  }
+}
+
+@mixin Button(
+  $bgColor: default,
+  $border: 1px solid $input__border-color,
+  $borderRadius: 4px,
+  $padding: 10px,
+  $transition: all 300ms ease
+) {
+  outline: none;
+  border: $border;
+  padding: $padding;
+  transition: $transition;
+  background-color: $bgColor;
+  border-radius: $borderRadius;
+}
+
+.services {
+  &__contact {
+    height: 100%;
+    padding: 50px 0px;
+    min-height: 630px;
+    @include gridLayout(grid, 2, space-between, flex-start, 0px);
+    grid-template-columns: repeat(2, 1fr);
+
+    @include lg {
+      grid-template-columns: 1fr;
+    }
+    &-image {
+      min-height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__form {
+    @include gridLayout(grid, 2, flex-start, center, 30px);
+    grid-template-columns: repeat(2, 1fr);
+
+    @include md {
+      display: block;
+    }
+
+    &-field {
+      padding: 20px;
+
+      @include Input(
+        $input__border-color,
+        $input__border-color,
+        $contact-title-color,
+        1px solid $contact-title-color,
+        0px
+      );
+
+      @include md {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+
+    &-texterea {
+      width: 100%;
+      padding: 20px;
+      height: 125px;
+      grid-column: 1/3;
+      @include Input(
+        $input__border-color,
+        $input__border-color,
+        $contact-title-color,
+        1px solid $contact-title-color,
+        0px
+      );
+
+      @include md {
+        margin-bottom: 20px;
+      }
+    }
+
+    &-submit {
+      grid-column: 1/3;
+
+      @include md {
+        width: 100%;
+        grid-column: none;
+      }
+
+      @include Button(
+        $btn-bg-color,
+        1px solid $btn-bg-color,
+        0px,
+        15px 30px,
+        (
+          color 150ms linear,
+          background-color 150ms linear,
+          transform 150ms linear
+        )
+      );
+      @include fontFamily("Open Sans");
+      @include headingFonts($contact-title-color, 16px, 400, 21.79px, none);
+
+      &:hover {
+        color: $btn-bg-color;
+        background-color: transparent;
+      }
+
+      &:active {
+        transform: scale(0.8);
+      }
+    }
+  }
+
+  &__box {
+    @include sm {
+      padding: 25px;
+    }
+
+    padding: 50px;
+    height: 100%;
+    max-width: 630px;
+    background: linear-gradient(
+      180deg,
+      $services__first-background-color 0%,
+      $services__second-background-color 100%
+    );
+
+    @include lg {
+      max-width: 100%;
+
+      &:last-child {
+        display: none;
+      }
+    }
+
+    &:last-child {
+      padding: 0px;
+      background: linear-gradient(180deg, transparent 0%, transparent 100%);
+    }
+
+    &-title {
+      text-align: center;
+      margin-bottom: 20px;
+      @include fontFamily("Philosopher");
+      @include headingFonts($contact-title-color, 40px, 700, 44.8px, none);
+    }
+
+    &-text {
+      margin-bottom: 20px;
+      @include fontFamily("Open Sans");
+      @include headingFonts($contact-title-color, 16px, 400, 21.79px, none);
+    }
+
+    &-horizontal-rule {
+      height: 1px;
+      width: 100%;
+      margin-bottom: 20px;
+      background-color: $contact-title-color;
+    }
+  }
+
+  &__background {
+    width: 100%;
+    padding: 50px 0px;
+    min-height: 290px;
+
+    &-title {
+      margin-bottom: 10px;
+      @include fontFamily("Philosopher");
+      @include headingFonts($contact-title-color, 80px, 700, 89.6px, none);
+
+      @include xl {
+        font-size: 65px;
+        line-height: 70px;
+      }
+
+      @include lg {
+        font-size: 60px;
+      }
+
+      @include md {
+        font-size: 50px;
+        line-height: 55px;
+      }
+
+      @include sm {
+        font-size: 36px;
+        line-height: 50px;
+      }
+    }
+
+    &-text {
+      @include fontFamily("Open Sans");
+      @include headingFonts($contact-title-color, 28px, 400, 33.13px, none);
+
+      @include xl {
+        font-size: 20px;
+      }
+
+      @include lg {
+        font-size: 18px;
+      }
+
+      @include sm {
+        font-size: 16px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  &__list {
+    padding: {
+      top: 20px;
+      bottom: 20px;
+    }
+
+    @include md {
+      padding: 0px;
+    }
+  }
+
+  &__cards {
+    padding: 50px 0px;
+    @include gridLayout(grid, 3, space-between, flex-start, 20px);
+    grid-template-columns: repeat(3, 1fr);
+
+    @include xl {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include sm {
+      grid-template-columns: auto;
+    }
+  }
+
+  &__card {
+    height: 100%;
+    border: 1px solid $input__border-color;
+    @include flexLayout(flex, space-between, space-between, 0px, column nowrap);
+    &-image {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+
+      @include md {
+        height: 250px;
+      }
+    }
+  }
+
+  &__content {
+    width: 100%;
+    padding: 20px;
+
+    &-title {
+      margin-bottom: 20px;
+      @include fontFamily("Philosopher");
+      @include headingFonts($title-color, 40px, 700, 44.8px, none);
+
+      @include md {
+        font-size: 32px;
+      }
+    }
+
+    &-horizontal-rule {
+      height: 1px;
+      width: 100%;
+      border: 1px solid $input__border-color;
+      margin-bottom: 20px;
+      display: inline-block;
+      background-color: $input__border-color;
+    }
+
+    &-link {
+      @include fontFamily("Open Sans");
+      @include transition(opacity 150ms linear);
+      @include headingFonts($btn-bg-color, 16px, 400, 21.79px, none);
+
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+
+  &__item {
+    margin-bottom: 50px;
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
+    &-title {
+      margin-bottom: 10px;
+      counter-reset: section;
+      @include fontFamily("Philosopher");
+      @include headingFonts($title-color, 40px, 700, 44.8px, none);
+
+      @include md {
+        font-size: 36px;
+      }
+    }
+  }
+
+  &__sentence {
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
+
+    &-text {
+      @include fontFamily("Open Sans");
+      @include headingFonts($text-color, 16px, 400, 21.79px, none);
+
+      strong::before {
+        counter-increment: section;
+        content: counter(section) ". ";
+      }
+    }
+  }
+}

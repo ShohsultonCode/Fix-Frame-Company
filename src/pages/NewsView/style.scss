@@ -1,0 +1,203 @@
+$lg: 992px;
+$md: 768px;
+$sm: 576px;
+$xl: 1200px;
+
+$contact-title-color: #ffffff;
+$contact-answer-title-color: #181818;
+
+@mixin headingFonts(
+  $color: $input__border-color,
+  $fontSize: 18px,
+  $fontWeight: 400,
+  $lineHeight: default,
+  $textTransform: capitalize
+) {
+  color: $color;
+  margin: 0 default;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  font-weight: $fontWeight;
+  text-transform: $textTransform;
+}
+
+@mixin fontFamily($font) {
+  font-family: $font;
+}
+
+@mixin gridLayout(
+  $grid: grid,
+  $gridTemplateCol: 3,
+  $jc: default,
+  $ai: default,
+  $gap: default
+) {
+  gap: $gap;
+  display: $grid;
+  align-items: $ai;
+  justify-content: $jc;
+  @if $gridTemplateCol > 1 {
+    grid-template-columns: repeat($gridTemplateCol, auto);
+  } @else {
+    grid-template-columns: auto;
+  }
+}
+
+@mixin xl {
+  @media only screen and (max-width: $xl) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media only screen and (max-width: $md) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media only screen and (max-width: $lg) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media only screen and (max-width: $sm) {
+    @content;
+  }
+}
+
+@mixin transition($duration) {
+  transition: $duration;
+}
+
+.news-view {
+  &__background {
+    width: 100%;
+    min-height: 300px;
+    padding: {
+      top: 50px;
+      bottom: 50px;
+    }
+
+    &-title {
+      margin-bottom: 10px;
+      @include fontFamily("Philosopher");
+      @include headingFonts($contact-title-color, 80px, 700, 89.6px, none);
+
+      @include xl {
+        font-size: 65px;
+        line-height: 70px;
+      }
+
+      @include lg {
+        font-size: 60px;
+      }
+
+      @include md {
+        font-size: 50px;
+        line-height: 55px;
+      }
+
+      @include sm {
+        font-size: 36px;
+        line-height: 50px;
+      }
+    }
+
+    &-text {
+      @include fontFamily(("Open Sans"));
+      @include headingFonts($contact-title-color, 28px, 400, 33.13px, none);
+
+      @include xl {
+        font-size: 20px;
+      }
+
+      @include lg {
+        font-size: 18px;
+      }
+
+      @include sm {
+        font-size: 16px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  &__houses {
+    padding: 50px 0px;
+    @include gridLayout(grid, 2, space-between, center, 20px);
+    grid-template-columns: repeat(2, 1fr);
+
+    @include md {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__house {
+    height: 410px;
+    width: 100%;
+    overflow: hidden;
+
+    @include md {
+      height: 300px;
+      width: 100%;
+    }
+
+    @include sm {
+      height: 225px;
+    }
+
+    &-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      @include transition(transform 150ms linear);
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  &__answers {
+    padding-left: 20px;
+  }
+
+  &__question {
+    margin-bottom: 20px;
+    &-title {
+      margin-bottom: 10px;
+      @include fontFamily("Philosopher");
+      @include headingFonts(
+        $contact-answer-title-color,
+        40px,
+        700,
+        44.8px,
+        capitalize
+      );
+
+      @include sm {
+        font-size: 36px;
+      }
+    }
+  }
+
+  &__answer {
+    margin-bottom: 10px;
+    @include fontFamily("Open Sans");
+
+    @include headingFonts(
+      $contact-answer-title-color,
+      16px,
+      400,
+      21.79px,
+      none
+    );
+    list-style: disc;
+
+    @include sm {
+      font-size: 14px;
+    }
+  }
+}

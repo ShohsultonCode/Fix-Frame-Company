@@ -1,0 +1,316 @@
+$title-color: #181818;
+$btn-bg-color: #ff0000;
+$input__border-color: #969696;
+$contact-title-color: #ffffff;
+$media__background-color: #001460;
+
+$lg: 992px;
+$md: 768px;
+$sm: 576px;
+$xl: 1200px;
+
+@mixin headingFonts(
+  $color: $input__border-color,
+  $fontSize: 18px,
+  $fontWeight: 400,
+  $lineHeight: default,
+  $textTransform: capitalize
+) {
+  color: $color;
+  margin: 0 default;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  font-weight: $fontWeight;
+  text-transform: $textTransform;
+}
+
+@mixin fontFamily($font) {
+  font-family: $font;
+}
+
+@mixin Button(
+  $bgColor: default,
+  $border: 1px solid $input__border-color,
+  $borderRadius: 4px,
+  $padding: 10px,
+  $transition: all 300ms ease
+) {
+  outline: none;
+  border: $border;
+  padding: $padding;
+  transition: $transition;
+  background-color: $bgColor;
+  border-radius: $borderRadius;
+}
+
+@mixin flexLayout(
+  $flex: flex,
+  $jc: default,
+  $ai: default,
+  $gap: default,
+  $flexFlow: nowrap row
+) {
+  gap: $gap;
+  display: $flex;
+  align-items: $ai;
+  justify-content: $jc;
+  flex-flow: $flexFlow;
+}
+
+@mixin transition($duration) {
+  transition: $duration;
+}
+
+@mixin sm {
+  @media only screen and (max-width: $sm) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media only screen and (max-width: $xl) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media only screen and (max-width: $lg) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media only screen and (max-width: $md) {
+    @content;
+  }
+}
+
+@mixin defaultMediaQuery($query) {
+  @media only screen and (max-width: $query) {
+    @content;
+  }
+}
+
+.news {
+  &__content {
+    margin-bottom: 20px;
+    &-title {
+      margin-bottom: 20px;
+      @include fontFamily("Philosopher");
+      @include headingFonts($title-color, 40px, 700, 44.8px, none);
+
+      @include sm {
+        font-size: 30px;
+        line-height: 35px;
+      }
+    }
+
+    &-text {
+      @include fontFamily("Open Sans");
+      @include headingFonts($input__border-color, 16px, 400, 21.79px, none);
+
+      @include sm {
+        font-size: 14px;
+      }
+    }
+  }
+
+  &__cards {
+    padding: 50px 0px;
+  }
+
+  &__card {
+    margin-bottom: 50px;
+    &-horizontal-rule {
+      max-width: 315px;
+      margin-bottom: 30px;
+      background-color: $input__border-color;
+    }
+  }
+
+  &__background {
+    width: 100%;
+    padding: 50px 0px;
+    min-height: 290px;
+
+    &-title {
+      margin-bottom: 10px;
+      @include fontFamily("Philosopher");
+      @include headingFonts($contact-title-color, 80px, 700, 89.6px, none);
+
+      @include xl {
+        font-size: 65px;
+        line-height: 70px;
+      }
+
+      @include lg {
+        font-size: 60px;
+      }
+
+      @include md {
+        font-size: 50px;
+        line-height: 55px;
+      }
+
+      @include sm {
+        font-size: 36px;
+        line-height: 50px;
+      }
+    }
+
+    &-text {
+      @include fontFamily("Open Sans");
+      @include headingFonts($contact-title-color, 28px, 400, 33.13px, none);
+
+      @include xl {
+        font-size: 20px;
+      }
+
+      @include lg {
+        font-size: 18px;
+      }
+
+      @include sm {
+        font-size: 16px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  &-carousel {
+    height: 100%;
+    position: relative;
+
+    &__list {
+      margin-bottom: 30px;
+    }
+
+    &__item {
+      &-image {
+        height: 520px;
+        object-fit: cover;
+
+        @include md {
+          height: 400px;
+        }
+
+        @include sm {
+          height: 300px;
+        }
+      }
+    }
+  }
+
+  &-buttons {
+    right: 0;
+    z-index: 1;
+    bottom: 5px;
+    position: absolute;
+    @include flexLayout(flex, center, center, 0px, row nowrap);
+
+    &__btn {
+      @include flexLayout(flex, center, center, 0px, row nowrap);
+      @include Button(
+        $contact-title-color,
+        1px solid $input__border-color,
+        0px,
+        25px,
+        transform 150ms linear
+      );
+
+      @include sm {
+        padding: 20px;
+      }
+
+      &:active {
+        transform: scale(0.8);
+      }
+
+      &-image {
+        width: 32px;
+        height: 32px;
+
+        @include sm {
+          height: 25px;
+          width: 25px;
+        }
+      }
+    }
+  }
+
+  &-footer {
+    @include flexLayout(flex, space-between, center, none, row nowrap);
+
+    @include defaultMediaQuery(480px) {
+      @include flexLayout(flex, space-between, center, 20px, column nowrap);
+    }
+
+    &-link {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background-color: $media__background-color;
+      @include flexLayout(flex, center, center, 0, row nowrap);
+
+      @include sm {
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+    &__media {
+      @include transition(opacity 150ms linear);
+      &-image {
+        width: 32px;
+        height: 32px;
+
+        @include sm {
+          width: 25px;
+          height: 25px;
+        }
+
+        @include defaultMediaQuery(480px) {
+          width: 22px;
+          height: 22px;
+        }
+      }
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
+    &__medias {
+      @include flexLayout(flex, flex-start, center, 30px, row nowrap);
+
+      @include defaultMediaQuery(480px) {
+        justify-content: space-between;
+      }
+    }
+
+    &-btn {
+      @include fontFamily("Open Sans");
+      @include headingFonts($contact-title-color, 16px, 400, 21.79px, none);
+      @include Button(
+        $btn-bg-color,
+        1px solid $btn-bg-color,
+        0px,
+        16px 64px,
+        (color 150ms linear, background-color 150ms linear)
+      );
+
+      @include sm {
+        padding: 16px 40px;
+      }
+
+      @include defaultMediaQuery(480px) {
+        width: 100%;
+      }
+
+      &:hover {
+        color: $btn-bg-color;
+        background-color: transparent;
+      }
+    }
+  }
+}

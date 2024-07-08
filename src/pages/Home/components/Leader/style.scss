@@ -1,0 +1,126 @@
+$sm: 576px;
+$md: 768px;
+
+$site-top__link-color: #181818;
+
+@mixin fontFamily($font) {
+  font-family: $font;
+}
+
+@mixin headingFonts(
+  $color: $input__border-color,
+  $fontSize: 18px,
+  $fontWeight: 400,
+  $lineHeight: default,
+  $textTransform: capitalize
+) {
+  color: $color;
+  margin: 0 default;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  font-weight: $fontWeight;
+  text-transform: $textTransform;
+}
+
+@mixin defaultMediaQuery($query) {
+  @media only screen and (max-width: $query) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media only screen and (max-width: $sm) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media only screen and (max-width: $md) {
+    @content;
+  }
+}
+
+@mixin flexLayout(
+  $flex: flex,
+  $jc: default,
+  $ai: default,
+  $gap: default,
+  $flexFlow: nowrap row
+) {
+  gap: $gap;
+  display: $flex;
+  align-items: $ai;
+  justify-content: $jc;
+  flex-flow: $flexFlow;
+}
+
+.leader {
+  padding: {
+    top: 150px;
+    bottom: 150px;
+  }
+
+  @include md {
+    padding: {
+      top: 75px;
+      bottom: 75px;
+    }
+  }
+
+  @include sm {
+    padding: {
+      top: 50px;
+      bottom: 50px;
+    }
+  }
+
+  &-title {
+    position: relative;
+    padding-left: 130px;
+    margin-bottom: 40px;
+    @include fontFamily("Philosopher");
+    @include headingFonts($site-top__link-color, 40px, 700, 44.8px, none);
+
+    @include defaultMediaQuery(650px) {
+      font-size: 36px;
+      padding-left: 75px;
+    }
+
+    @include sm {
+      padding-left: 0px;
+      text-align: center;
+    }
+
+    &::before {
+      left: 0;
+      top: 50%;
+      content: "";
+      height: 2px;
+      width: 110px;
+      position: absolute;
+      background-color: $site-top__link-color;
+
+      @include defaultMediaQuery(650px) {
+        width: 65px;
+      }
+
+      @include sm {
+        left: 45%;
+        top: 125%;
+      }
+    }
+  }
+
+  &__item {
+    @include flexLayout(flex, center, center, none, row nowrap);
+    &-img {
+      width: 100%;
+      height: 100px;
+      object-position: center center;
+
+      @include md {
+        width: 300px;
+      }
+    }
+  }
+}

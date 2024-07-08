@@ -1,0 +1,170 @@
+$md: 768px;
+$sm: 576px;
+$xl: 1200px;
+
+$title-color: #181818;
+$input__border-color: #969696;
+
+@mixin md {
+  @media only screen and (max-width: $md) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media only screen and (max-width: $xl) {
+    @content;
+  }
+}
+
+@mixin headingFonts(
+  $color: $input__border-color,
+  $fontSize: 18px,
+  $fontWeight: 400,
+  $lineHeight: default,
+  $textTransform: capitalize
+) {
+  color: $color;
+  margin: 0 default;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  font-weight: $fontWeight;
+  text-transform: $textTransform;
+}
+
+@mixin flexLayout(
+  $flex: flex,
+  $jc: default,
+  $ai: default,
+  $gap: default,
+  $flexFlow: nowrap row
+) {
+  gap: $gap;
+  display: $flex;
+  align-items: $ai;
+  justify-content: $jc;
+  flex-flow: $flexFlow;
+}
+
+@mixin fontFamily($font) {
+  font-family: $font;
+}
+
+@mixin gridLayout(
+  $grid: grid,
+  $gridTemplateCol: 3,
+  $jc: default,
+  $ai: default,
+  $gap: default
+) {
+  gap: $gap;
+  display: $grid;
+  align-items: $ai;
+  justify-content: $jc;
+  @if $gridTemplateCol > 1 {
+    grid-template-columns: repeat($gridTemplateCol, auto);
+  } @else {
+    grid-template-columns: auto;
+  }
+}
+
+@mixin sm {
+  @media only screen and (max-width: $sm) {
+    @content;
+  }
+}
+
+.result {
+  padding-top: 150px;
+
+  @include md {
+    padding-top: 75px;
+  }
+
+  &__list {
+    width: 100%;
+    @include gridLayout(grid, 2, space-between, flex-start, 65px);
+    grid-template-columns: repeat(2, 1fr);
+
+    @include md {
+      gap: 45px;
+    }
+
+    @include sm {
+      @include gridLayout(grid, 1, center, flex-start, 65px);
+    }
+  }
+
+  &__container {
+    @include flexLayout(flex, space-between, center, 77px, row nowrap);
+
+    @include xl {
+      @include flexLayout(flex, space-between, center, 77px, column nowrap);
+    }
+
+    @include sm {
+      gap: 50px;
+    }
+
+    &-image {
+      max-width: 455px;
+      object-fit: cover;
+    }
+  }
+
+  &__box {
+    margin-bottom: 20px;
+    @include flexLayout(flex, flex-start, center, 16px, row nowrap);
+
+    @include sm {
+      text-align: center;
+      @include flexLayout(flex, flex-start, center, 16px, column nowrap);
+    }
+    &-image {
+      width: 100px;
+      height: 100px;
+
+      @include md {
+        width: 75px;
+        height: 75px;
+      }
+    }
+
+    &-text {
+      @include fontFamily("Open Sans");
+      @include headingFonts($title-color, 16px, 400, 21.79px, none);
+
+      @include sm {
+        text-align: center;
+      }
+    }
+
+    &-horizontal-rule {
+      height: 1px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__content {
+    &-title {
+      margin-bottom: 2px;
+      @include fontFamily("Open Sans");
+      @include headingFonts($title-color, 64px, 700, 87.16px, none);
+
+      @include md {
+        font-size: 44px;
+        line-height: 50px;
+      }
+    }
+
+    &-sub-title {
+      @include fontFamily("Philosopher");
+      @include headingFonts($title-color, 28px, 700, 31.36px, none);
+
+      @include md {
+        font-size: 22px;
+      }
+    }
+  }
+}

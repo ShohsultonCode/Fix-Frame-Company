@@ -1,0 +1,147 @@
+$lg: 992px;
+$md: 768px;
+$sm: 576px;
+
+$text-color: #646464;
+$title-color: #181818;
+$input__border-color: #969696;
+$contact-title-color: #ffffff;
+
+@mixin flexLayout(
+  $flex: flex,
+  $jc: default,
+  $ai: default,
+  $gap: default,
+  $flexFlow: nowrap row
+) {
+  gap: $gap;
+  display: $flex;
+  align-items: $ai;
+  justify-content: $jc;
+  flex-flow: $flexFlow;
+}
+
+@mixin headingFonts(
+  $color: $input__border-color,
+  $fontSize: 18px,
+  $fontWeight: 400,
+  $lineHeight: default,
+  $textTransform: capitalize
+) {
+  color: $color;
+  margin: 0 default;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  font-weight: $fontWeight;
+  text-transform: $textTransform;
+}
+
+@mixin fontFamily($font) {
+  font-family: $font;
+}
+
+@mixin lg {
+  @media only screen and (max-width: $lg) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media only screen and (max-width: $md) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media only screen and (max-width: $sm) {
+    @content;
+  }
+}
+
+.hero {
+  @include flexLayout(flex, space-between, center, 10px, row nowrap);
+
+  @include md {
+    padding-top: 50px;
+  }
+
+  &__content {
+    width: 100%;
+    max-width: 610px;
+    &-title {
+      margin-bottom: 20px;
+      @include fontFamily("Philosopher");
+      @include headingFonts($title-color, 80px, 700, 89.6px, none);
+
+      @include lg {
+        font-size: 60px;
+        line-height: 70px;
+      }
+
+      @include md {
+        font-size: 50px;
+      }
+
+      @include sm {
+        font-size: 45px;
+      }
+    }
+
+    &-horizontal-rule {
+      height: 1px;
+      width: 100%;
+      margin-bottom: 20px;
+      background-color: $input__border-color;
+    }
+
+    &-text {
+      @include fontFamily("Open Sans");
+      @include headingFonts($text-color, 16px, 400, 21.79px, none);
+    }
+  }
+
+  &-image {
+    width: 1400px;
+    height: 610px;
+    object-fit: cover;
+    position: relative;
+
+    @include lg {
+      height: 550px;
+      width: 1000px;
+    }
+
+    @include md {
+      display: none;
+    }
+  }
+
+  &-image::before {
+    top: 0;
+    left: 0;
+    content: "";
+    width: 90px;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(
+      90deg,
+      $contact-title-color 10%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+
+  &-image::after {
+    content: "";
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    transform: rotate(180deg);
+    height: 150px;
+    position: absolute;
+    background: linear-gradient(
+      180deg,
+      $contact-title-color 10%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+}

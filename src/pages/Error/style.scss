@@ -1,0 +1,136 @@
+$sm: 576px;
+
+$site-top-hover-icon: #ff0000;
+$site-top__link-color: #181818;
+$site-top__text-color: #ffffff;
+
+@mixin flexLayout(
+  $flex: flex,
+  $jc: default,
+  $ai: default,
+  $gap: default,
+  $flexFlow: nowrap row
+) {
+  gap: $gap;
+  display: $flex;
+  align-items: $ai;
+  justify-content: $jc;
+  flex-flow: $flexFlow;
+}
+
+@mixin fontFamily($font) {
+  font-family: $font;
+}
+
+@mixin headingFonts(
+  $color: $input__border-color,
+  $fontSize: 18px,
+  $fontWeight: 400,
+  $lineHeight: default,
+  $textTransform: capitalize
+) {
+  color: $color;
+  margin: 0 default;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  font-weight: $fontWeight;
+  text-transform: $textTransform;
+}
+
+@mixin Button(
+  $bgColor: default,
+  $border: 1px solid $input__border-color,
+  $borderRadius: 4px,
+  $padding: 10px,
+  $transition: all 300ms ease
+) {
+  outline: none;
+  border: $border;
+  padding: $padding;
+  transition: $transition;
+  background-color: $bgColor;
+  border-radius: $borderRadius;
+}
+
+@mixin sm {
+  @media only screen and (max-width: $sm) {
+    @content;
+  }
+}
+
+.error {
+  &-image {
+    width: 100%;
+    height: 186px;
+    object-fit: cover;
+
+    @include sm {
+      display: none;
+    }
+  }
+
+  width: 100%;
+  min-height: 100vh;
+  @include flexLayout(flex, center, center, none, column nowrap);
+  &__container {
+    text-align: center;
+  }
+
+  &__content {
+    &-title {
+      margin-bottom: 20px;
+      @include fontFamily("Philosopher");
+      @include headingFonts(
+        $site-top__link-color,
+        64px,
+        700,
+        71.68px,
+        uppercase
+      );
+
+      @include sm {
+        font-size: 56px;
+        margin-bottom: 10px;
+      }
+    }
+
+    &-sub-title {
+      margin-bottom: 10px;
+      @include fontFamily("Open Sans");
+      @include headingFonts($site-top__link-color, 28px, 700, 38.13px, none);
+
+      @include sm {
+        font-size: 24px;
+      }
+    }
+
+    &-text {
+      margin-bottom: 40px;
+      @include fontFamily("Open Sans");
+      @include headingFonts($site-top__link-color, 28px, 400, 38.13px, none);
+      @include sm {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 30px;
+      }
+    }
+
+    &-btn {
+      margin-bottom: 35px;
+      @include fontFamily(("Open Sans", sans-serif));
+      @include headingFonts($site-top__text-color, 16px, 400, 21.79px, none);
+      @include Button(
+        $site-top-hover-icon,
+        1px solid $site-top-hover-icon,
+        0px,
+        15px 50px,
+        (color 150ms linear, background-color 150ms linear)
+      );
+
+      &:hover {
+        color: $site-top-hover-icon;
+        background-color: transparent;
+      }
+    }
+  }
+}

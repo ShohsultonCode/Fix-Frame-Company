@@ -1,0 +1,143 @@
+$lg: 992px;
+$md: 768px;
+$sm: 576px;
+
+$title-color: #181818;
+$btn-bg-color: #ff0000;
+$input__border-color: #969696;
+$box__background-color: #0029c6;
+
+@mixin flexLayout(
+  $flex: flex,
+  $jc: default,
+  $ai: default,
+  $gap: default,
+  $flexFlow: nowrap row
+) {
+  gap: $gap;
+  display: $flex;
+  align-items: $ai;
+  justify-content: $jc;
+  flex-flow: $flexFlow;
+}
+
+@mixin fontFamily($font) {
+  font-family: $font;
+}
+
+@mixin headingFonts(
+  $color: $input__border-color,
+  $fontSize: 18px,
+  $fontWeight: 400,
+  $lineHeight: default,
+  $textTransform: capitalize
+) {
+  color: $color;
+  margin: 0 default;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  font-weight: $fontWeight;
+  text-transform: $textTransform;
+}
+
+@mixin lg {
+  @media only screen and (max-width: $lg) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media only screen and (max-width: $md) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media only screen and (max-width: $sm) {
+    @content;
+  }
+}
+
+.mission {
+  padding-top: 150px;
+
+  @include md {
+    padding-top: 75px;
+  }
+  &__item {
+    width: 100%;
+    @include flexLayout(flex, flex-start, center, 40px, row nowrap);
+
+    @include sm {
+      display: block;
+    }
+
+    &:first-child {
+      padding-left: 240px;
+      margin-bottom: 40px;
+
+      @include lg {
+        padding-left: 0px;
+      }
+    }
+  }
+
+  &__box {
+    padding: 50px;
+    @include flexLayout(flex, center, center, 0px, row nowrap);
+
+    @include md {
+      padding: 35px;
+    }
+
+    @include sm {
+      margin-bottom: 25px;
+    }
+
+    &--red {
+      background-color: $btn-bg-color;
+    }
+
+    &--blue {
+      background-color: $box__background-color;
+    }
+
+    &-icon {
+      width: 100px;
+      height: 100px;
+
+      @include md {
+        width: 75px;
+        height: 75px;
+      }
+    }
+  }
+
+  &__content {
+    width: 100%;
+    max-width: 765px;
+
+    &-title {
+      position: relative;
+      padding-left: 80px;
+      margin-bottom: 20px;
+      @include fontFamily("Philosopher");
+      @include headingFonts($title-color, 40px, 700, 44.8px, none);
+
+      &::before {
+        left: 0;
+        top: 50%;
+        content: "";
+        height: 1px;
+        width: 70px;
+        position: absolute;
+        background-color: $title-color;
+      }
+    }
+
+    &-text {
+      @include fontFamily("Open Sans");
+      @include headingFonts($title-color, 16px, 400, 21.79px, none);
+    }
+  }
+}

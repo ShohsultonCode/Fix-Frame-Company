@@ -1,0 +1,178 @@
+$lg: 992px;
+$md: 768px;
+$sm: 576px;
+
+$content__btn-color: #ff0000;
+$site-top__link-color: #181818;
+$site-top__text-color: #ffffff;
+
+@mixin flexLayout(
+  $flex: flex,
+  $jc: default,
+  $ai: default,
+  $gap: default,
+  $flexFlow: nowrap row
+) {
+  gap: $gap;
+  display: $flex;
+  align-items: $ai;
+  justify-content: $jc;
+  flex-flow: $flexFlow;
+}
+
+@mixin defaultMediaQuery($query) {
+  @media only screen and (max-width: $query) {
+    @content;
+  }
+}
+
+@mixin headingFonts(
+  $color: $input__border-color,
+  $fontSize: 18px,
+  $fontWeight: 400,
+  $lineHeight: default,
+  $textTransform: capitalize
+) {
+  color: $color;
+  margin: 0 default;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  font-weight: $fontWeight;
+  text-transform: $textTransform;
+}
+
+@mixin fontFamily($font) {
+  font-family: $font;
+}
+
+@mixin Button(
+  $bgColor: default,
+  $border: 1px solid $input__border-color,
+  $borderRadius: 4px,
+  $padding: 10px,
+  $transition: all 300ms ease
+) {
+  outline: none;
+  border: $border;
+  padding: $padding;
+  transition: $transition;
+  background-color: $bgColor;
+  border-radius: $borderRadius;
+}
+
+@mixin lg {
+  @media only screen and (max-width: $lg) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media only screen and (max-width: $md) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media only screen and (max-width: $sm) {
+    @content;
+  }
+}
+
+@mixin transition($duration) {
+  transition: $duration;
+}
+
+.home-about {
+  padding: 140px 0px 0px 0px;
+
+  @include md {
+    padding: 100px 0px;
+  }
+
+  @include sm {
+    padding: 60px 0px;
+  }
+
+  &__container {
+    @include flexLayout(flex, space-between, center, 15px, row nowrap);
+  }
+
+  &__content {
+    &-heading {
+      position: relative;
+      padding-left: 82px;
+      margin-bottom: 40px;
+      @include fontFamily("Philosopher");
+      @include headingFonts($site-top__link-color, 40px, 700, 44.8px, none);
+
+      @include defaultMediaQuery(1185px) {
+        font-size: 36px;
+      }
+
+      &::before {
+        left: 0;
+        top: 50%;
+        content: "";
+        width: 70px;
+        height: 2px;
+        position: absolute;
+        background-color: $site-top__link-color;
+      }
+    }
+
+    &-text {
+      margin-bottom: 40px;
+      @include fontFamily("Philosopher");
+      @include headingFonts($site-top__link-color, 28px, 400, 31.36px, none);
+
+      @include defaultMediaQuery(1185px) {
+        font-size: 20px;
+      }
+    }
+
+    &-btn {
+      letter-spacing: 1px;
+      @include transition((color 150ms linear, background-color 150ms linear));
+
+      &:hover {
+        color: $content__btn-color;
+        background-color: transparent;
+      }
+
+      @include Button(
+        $content__btn-color,
+        1px solid $content__btn-color,
+        0px,
+        15px 30px,
+        (color 150ms linear, background-color 150ms linear)
+      );
+      @include headingFonts(
+        $site-top__text-color,
+        16px,
+        400,
+        21.79px,
+        capitalize
+      );
+    }
+  }
+
+  &-image {
+    width: 680px;
+    height: 486px;
+    object-fit: cover;
+
+    @include defaultMediaQuery(1290px) {
+      width: 580px;
+      height: 386px;
+    }
+
+    @include lg {
+      width: 500px;
+      height: 300px;
+    }
+
+    @include md {
+      display: none;
+    }
+  }
+}

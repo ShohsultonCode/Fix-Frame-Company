@@ -32,7 +32,8 @@ const Contact = () => {
           <h2 className="contact__background-heading">Contact us</h2>
           <hr className="contact__background-horizontal-rule" />
           <p className="contact__background-text">
-            FixFrame is ready provide the right solution according to your needs
+            FixFrame is ready provide the right solution according to your
+            needs.
           </p>
         </div>
       </div>
@@ -123,6 +124,7 @@ const Contact = () => {
                 <img
                   width={32}
                   height={32}
+                  loading="lazy"
                   src={ContactMediaIcon1}
                   alt="FixFrame instagram"
                   className="contact__blank-icon"
@@ -134,6 +136,7 @@ const Contact = () => {
                 <img
                   width={32}
                   height={32}
+                  loading="lazy"
                   src={ContactMediaIcon2}
                   alt="FixFrame facebook"
                   className="contact__blank-icon"
@@ -145,6 +148,7 @@ const Contact = () => {
                 <img
                   width={32}
                   height={32}
+                  loading="lazy"
                   src={ContactMediaIcon3}
                   alt="FixFrame telephone"
                   className="contact__blank-icon"

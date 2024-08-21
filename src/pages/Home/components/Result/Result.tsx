@@ -18,6 +18,7 @@ const Result = () => {
                 <img
                   width={100}
                   height={100}
+                  loading="lazy"
                   src={ResultImage1}
                   alt="State Licenses"
                   className="result__box-image"
@@ -37,6 +38,7 @@ const Result = () => {
                 <img
                   width={100}
                   height={100}
+                  loading="lazy"
                   src={ResultImage2}
                   alt="State Licenses"
                   className="result__box-image"
@@ -56,6 +58,7 @@ const Result = () => {
                 <img
                   width={100}
                   height={100}
+                  loading="lazy"
                   src={ResultImage3}
                   alt="State Licenses"
                   className="result__box-image"
@@ -75,6 +78,7 @@ const Result = () => {
                 <img
                   width={100}
                   height={100}
+                  loading="lazy"
                   src={ResultImage4}
                   alt="State Licenses"
                   className="result__box-image"
@@ -95,6 +99,7 @@ const Result = () => {
           <img
             width={400}
             height={455}
+            loading="lazy"
             src={ResultImage}
             alt="FixFrame phone"
             className="result__container-image"

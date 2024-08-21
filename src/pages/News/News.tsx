@@ -77,8 +77,7 @@ const News = () => {
           image: newsHouseImage4,
         },
       ],
-      title:
-        "Transforming Spaces:Experts in Retail and Residential Construction Services bu FixFrame Inc.",
+      title: "Landscape and Snow Removal",
       text: `
         Creating an inviting ambiance and an captivating design can continually draw devoted customers to
         your business. From the outward appearance to the internal intricacies, every facet of a retail
@@ -108,10 +107,10 @@ const News = () => {
       ],
       title: "How To Clean Up Mold Properly",
       text: `
-        Mold contamination is a troublesome issue that damages your home and jeopardizes your health.
-        If left unaddressed, it can propagate and escalate, particularly for individuals with respiratory
-        ailments. Therefore, it's imperative to rid your house of mold promptly. Here are the steps to
-        adhere to for...
+        Mold contamination is a troublesome issue that damages your home and jeopardizes your
+        health. If left unaddressed, it can propagate and escalate, particularly for
+        individuals with respiratory ailments. Therefore, it's imperative to rid your house
+        of mold promptly.  Here are the steps to follow for proper cleaning up of mold:
       `,
     },
     {
@@ -136,10 +135,11 @@ const News = () => {
       ],
       title: "Mold Remediation and Inspection Services",
       text: `
-        Welcome to Ninja Group Inc., your reliable ally in mold remediation solutions. At Ninja Group Inc.,
-        we recognize the significance of a healthy living environment for you and your family. Mold can pose a
-        quiet danger, lurking in corners and crawlspaces, undermining your home’s structure, and potentially
-        impacting your well-being. We are here to...
+        Welcome to Fix&Frame, your reliable ally in mold remediation solutions. At Fix&Frame,
+        we recognize the significance of a healthy living environment for you and your family.
+        Mold can pose a quiet danger, lurking in corners and crawlspaces, undermining your
+        home’s structure, and potentially impacting your well-being. We are here to help you
+        regain control and peace of mind.
       `,
     },
     {
@@ -166,7 +166,7 @@ const News = () => {
       text: `
         Your bathroom is the one place where you start your morning as well as freshen up at the end of a long tiring
         day. While designing your bathroom, it should be functional and look fabulous. So, here are a few tips
-        for you to build your dream bathroom: Efficient Design No matter how beautiful the...
+        for you to build your dream bathroom:
       `,
     },
     {
@@ -189,12 +189,11 @@ const News = () => {
           image: newsHouseImage19,
         },
       ],
-      title:
-        "Transforming Spaces:Experts in Retail and Residential Construction  ",
+      title: "Landscape and Snow Removal",
       text: `
         Your bathroom is the one place where you start your morning as well as freshen up at the end of a long tiring
         day. While designing your bathroom, it should be functional and look fabulous. So, here are a few tips for you
-        to build your dream bathroom: Efficient Design No matter how beautiful the...
+        to build your dream bathroom: 
       `,
     },
   ];
@@ -253,6 +252,7 @@ const News = () => {
                               <img
                                 height={520}
                                 src={el.image}
+                                loading="lazy"
                                 alt="news-image-5"
                                 className="news-carousel__item-image"
                               />
@@ -270,6 +270,7 @@ const News = () => {
                             alt="icon"
                             width={32}
                             height={32}
+                            loading="lazy"
                             src={CarouselIcon1}
                             className="news-buttons__btn-image"
                           />
@@ -283,6 +284,7 @@ const News = () => {
                             alt="icon"
                             width={32}
                             height={32}
+                            loading="lazy"
                             src={CarouselIcon2}
                             className="news-buttons__btn-image"
                           />
@@ -311,6 +313,7 @@ const News = () => {
                             width={32}
                             height={32}
                             src={Media1}
+                            loading="lazy"
                             alt="FixFrame instagram"
                             className="news-footer__media-image"
                           />
@@ -326,6 +329,7 @@ const News = () => {
                             width={32}
                             height={32}
                             src={Media2}
+                            loading="lazy"
                             alt="FixFrame facebook"
                             className="news-footer__media-image"
                           />
@@ -341,6 +345,7 @@ const News = () => {
                             width={32}
                             height={32}
                             src={Media3}
+                            loading="lazy"
                             alt="FixFrame twitter"
                             className="news-footer__media-image"
                           />

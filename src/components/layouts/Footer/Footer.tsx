@@ -11,6 +11,7 @@ const Footer = () => {
             <img
               width="180"
               height="100"
+              loading="lazy"
               src={fixFrameLogo}
               alt="FixFrame logo"
               className="footer__container-logo"

@@ -125,6 +125,7 @@ const Header = () => {
             <img
               width="89.28"
               height="46.04"
+              loading="lazy"
               src={fixFrameLogo}
               alt="FixFrame logo"
               className="header-logo"

@@ -60,6 +60,7 @@ const Portfolio = () => {
                 <img
                   width={610}
                   height={430}
+                  loading="lazy"
                   alt="carousel 1"
                   src={newsHouseImage1}
                   className="portfolio__carousel-image"
@@ -69,6 +70,7 @@ const Portfolio = () => {
                 <img
                   width={610}
                   height={430}
+                  loading="lazy"
                   alt="carousel 1"
                   src={newsHouseImage1}
                   className="portfolio__carousel-image"
@@ -78,6 +80,7 @@ const Portfolio = () => {
                 <img
                   width={610}
                   height={430}
+                  loading="lazy"
                   alt="carousel 1"
                   src={newsHouseImage1}
                   className="portfolio__carousel-image"
@@ -87,6 +90,7 @@ const Portfolio = () => {
                 <img
                   width={610}
                   height={430}
+                  loading="lazy"
                   alt="carousel 1"
                   src={newsHouseImage1}
                   className="portfolio__carousel-image"
@@ -101,6 +105,7 @@ const Portfolio = () => {
                   <img
                     width={32}
                     height={32}
+                    loading="lazy"
                     alt="carousel-1"
                     src={CarouselIcon1}
                     className="portfolio__btn-img"
@@ -113,6 +118,7 @@ const Portfolio = () => {
                   <img
                     width={32}
                     height={32}
+                    loading="lazy"
                     alt="carousel-2"
                     src={CarouselIcon2}
                     className="portfolio__btn-img"
@@ -136,6 +142,7 @@ const Portfolio = () => {
                   <img
                     width={32}
                     height={32}
+                    loading="lazy"
                     src={ContactMediaIcon1}
                     alt="FixFrame instagram"
                     className="portfolio__media-icon"
@@ -147,6 +154,7 @@ const Portfolio = () => {
                   <img
                     width={32}
                     height={32}
+                    loading="lazy"
                     src={ContactMediaIcon2}
                     alt="FixFrame facebook"
                     className="portfolio__media-icon"
@@ -158,6 +166,7 @@ const Portfolio = () => {
                   <img
                     width={32}
                     height={32}
+                    loading="lazy"
                     src={ContactMediaIcon3}
                     alt="FixFrame telephone"
                     className="portfolio__media-icon"
@@ -185,6 +194,7 @@ const Portfolio = () => {
                 <img
                   width={610}
                   height={430}
+                  loading="lazy"
                   alt="carousel 1"
                   src={newsHouseImage1}
                   className="portfolio__carousel-image"
@@ -194,6 +204,7 @@ const Portfolio = () => {
                 <img
                   width={610}
                   height={430}
+                  loading="lazy"
                   alt="carousel 1"
                   src={newsHouseImage1}
                   className="portfolio__carousel-image"
@@ -203,6 +214,7 @@ const Portfolio = () => {
                 <img
                   width={610}
                   height={430}
+                  loading="lazy"
                   alt="carousel 1"
                   src={newsHouseImage1}
                   className="portfolio__carousel-image"
@@ -212,6 +224,7 @@ const Portfolio = () => {
                 <img
                   width={610}
                   height={430}
+                  loading="lazy"
                   alt="carousel 1"
                   src={newsHouseImage1}
                   className="portfolio__carousel-image"
@@ -226,6 +239,7 @@ const Portfolio = () => {
                   <img
                     width={32}
                     height={32}
+                    loading="lazy"
                     alt="carousel-1"
                     src={CarouselIcon1}
                     className="portfolio__btn-img"
@@ -238,6 +252,7 @@ const Portfolio = () => {
                   <img
                     width={32}
                     height={32}
+                    loading="lazy"
                     alt="carousel-2"
                     src={CarouselIcon2}
                     className="portfolio__btn-img"
@@ -262,6 +277,7 @@ const Portfolio = () => {
                   <img
                     width={32}
                     height={32}
+                    loading="lazy"
                     src={ContactMediaIcon1}
                     alt="FixFrame instagram"
                     className="portfolio__media-icon"
@@ -273,6 +289,7 @@ const Portfolio = () => {
                   <img
                     width={32}
                     height={32}
+                    loading="lazy"
                     src={ContactMediaIcon2}
                     alt="FixFrame facebook"
                     className="portfolio__media-icon"
@@ -284,6 +301,7 @@ const Portfolio = () => {
                   <img
                     width={32}
                     height={32}
+                    loading="lazy"
                     src={ContactMediaIcon3}
                     alt="FixFrame telephone"
                     className="portfolio__media-icon"
@@ -311,6 +329,7 @@ const Portfolio = () => {
                 <img
                   width={610}
                   height={430}
+                  loading="lazy"
                   alt="carousel 1"
                   src={newsHouseImage1}
                   className="portfolio__carousel-image"
@@ -320,6 +339,7 @@ const Portfolio = () => {
                 <img
                   width={610}
                   height={430}
+                  loading="lazy"
                   alt="carousel 1"
                   src={newsHouseImage1}
                   className="portfolio__carousel-image"
@@ -329,6 +349,7 @@ const Portfolio = () => {
                 <img
                   width={610}
                   height={430}
+                  loading="lazy"
                   alt="carousel 1"
                   src={newsHouseImage1}
                   className="portfolio__carousel-image"
@@ -338,6 +359,7 @@ const Portfolio = () => {
                 <img
                   width={610}
                   height={430}
+                  loading="lazy"
                   alt="carousel 1"
                   src={newsHouseImage1}
                   className="portfolio__carousel-image"
@@ -352,6 +374,7 @@ const Portfolio = () => {
                   <img
                     width={32}
                     height={32}
+                    loading="lazy"
                     alt="carousel-1"
                     src={CarouselIcon1}
                     className="portfolio__btn-img"
@@ -364,6 +387,7 @@ const Portfolio = () => {
                   <img
                     width={32}
                     height={32}
+                    loading="lazy"
                     alt="carousel-2"
                     src={CarouselIcon2}
                     className="portfolio__btn-img"
@@ -387,6 +411,7 @@ const Portfolio = () => {
                   <img
                     width={32}
                     height={32}
+                    loading="lazy"
                     src={ContactMediaIcon1}
                     alt="FixFrame instagram"
                     className="portfolio__media-icon"
@@ -398,6 +423,7 @@ const Portfolio = () => {
                   <img
                     width={32}
                     height={32}
+                    loading="lazy"
                     src={ContactMediaIcon2}
                     alt="FixFrame facebook"
                     className="portfolio__media-icon"
@@ -409,6 +435,7 @@ const Portfolio = () => {
                   <img
                     width={32}
                     height={32}
+                    loading="lazy"
                     src={ContactMediaIcon3}
                     alt="FixFrame telephone"
                     className="portfolio__media-icon"

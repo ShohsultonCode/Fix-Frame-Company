@@ -234,10 +234,12 @@ $site-top__background-color: #001460;
       left: -100%;
       width: 100%;
       position: fixed;
-      min-height: 100vh;
+      min-height: 100%;
       padding: 100px 0px;
       @include transition(left 300ms linear);
       background-color: $site-top__background-color;
+
+      background-color: rgb(0, 20, 96, 0.9);
 
       &--open {
         left: 0;

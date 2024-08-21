@@ -14,6 +14,7 @@ const OurAbout = () => {
             <img
               width={620}
               height={400}
+              loading="lazy"
               src={OurAboutImage1}
               alt="our about image"
               className="our-about__item-image"
@@ -47,6 +48,7 @@ const OurAbout = () => {
             <img
               width={620}
               height={400}
+              loading="lazy"
               src={OurAboutImage2}
               alt="our about image"
               className="our-about__item-image"
@@ -56,6 +58,7 @@ const OurAbout = () => {
             <img
               width={620}
               height={400}
+              loading="lazy"
               src={OurAboutImage3}
               alt="our about image"
               className="our-about__item-image"
@@ -67,7 +70,7 @@ const OurAbout = () => {
               <p className="our-about__content-text">
                 Our team members have a duty to build upon our strong heritage
                 of integrity and fairness by consistently adhering to our
-                company values. Ninja Group stands for the highest standards of
+                company values. Fix&Frame stands for the highest standards of
                 integrity and fairness by “Doing the Right for the Customers”
               </p>
             </div>

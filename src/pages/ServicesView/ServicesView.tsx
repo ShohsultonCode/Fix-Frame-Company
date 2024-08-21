@@ -57,9 +57,12 @@ const ServicesView = () => {
       id: 4,
       title: "Property winterization",
       text: `
-        At FixFrame Inc., we recognize the significance of a healthy living environment for you and
-        your family. Mold can pose a hidden danger, lurking in corners and crawlspaces, undermining
-        your home’s structure,
+        As an REO agent, you understand the importance of maintaining the appeal of bank-owned
+        properties to attract potential buyers and close deals. Fix&Frame provides dependable,
+        ongoing, and one-time clean-out and clean-up services, including debris removal, for
+        REO properties. Whether it's residential, commercial, industrial properties, or
+        undeveloped land, our reliable REO clean-out teams will be your trusted partner in
+        ensuring the continued upkeep of all your bank-owned properties.
       `,
       images: [
         {
@@ -82,80 +85,108 @@ const ServicesView = () => {
       listData: [
         {
           id: 1,
-          title: "",
+          title: "Comprehensive REO Property Clean-Out and Debris Removal ",
           data: [
             {
               id: 1,
               text: `
-              Although winters are enchanting, the frigid conditions can significantly impact your
-              home. In states with harsh cold climates, vacant properties are particularly susceptible
-              to damage from frozen water lines, insufficient insulation, and faulty plumbing.
+              We deploy scalable teams of licensed and insured professionals to conduct
+              thorough cleanouts of bank-owned properties. This includes clearing out all
+              leftover junk, furniture, and appliances, as well as cleaning up both interior
+              and exterior debris. We also offer complete cleanup services for undeveloped
+              land, handling everything from trash removal to tree and yard debris disposal.
             `,
+            },
+          ],
+        },
+        {
+          id: 2,
+          title: "Light Demolition and Cleanup Services for REO Properties ",
+          data: [
+            {
+              id: 1,
+              text: `
+                After the initial cleanout, our team can assist with light demolition tasks to
+                avoid the need for multiple contractors. This service accelerates the process,
+                making your property market-ready more quickly. Choosing LoadUp for your REO
+                cleanout and eco-friendly disposal needs ensures a streamlined experience.
+              `,
+            },
+          ],
+        },
+        {
+          id: 3,
+          title: "Range of Real Estate-Owned Property Services",
+          data: [
+            {
+              id: 1,
+              text: `
+                Every property is unique, and so are our cleanout solutions. Whether it’s a
+                residential, corporate building, or undeveloped land, our REO property
+                services are tailored to meet all your cleanup needs. Your account manager
+                is always on hand to provide upfront quotes, schedule services, and address
+                any questions.
+              `,
+            },
+          ],
+        },
+        {
+          id: 4,
+          title: "Property Clean Outs:",
+          data: [
+            {
+              id: 1,
+              text: "Office Clean Outs",
             },
             {
               id: 2,
-              text: `
-              Property winterization safeguards your home from the harsh winter winds. Overlooking
-              even a single component, such as the radiant heat system or plumbing fixtures, can
-              result in costly repairs. Therefore, conducting property winterization before fall
-              ensures your property is protected and prevents expensive damage.
-              `,
+              text: "Eviction Clean Outs",
             },
             {
               id: 3,
-              text: `
-              Our property winterization services prepare your home for winter. We handle everything
-              from maintaining heating systems to ensuring proper insulation, checking for potential
-              leaks, and winterizing toilets. We go above and beyond to protect your property,
-              offering premium services within your budget. Ready to winterize your home? Contact
-              us today.
-              `,
+              text: "Apartment Clean Outs",
             },
             {
               id: 4,
-              text: `
-              Winterization is the process of preparing a home for the harsh conditions of winter,
-              typically done in the fall before snow and extreme cold arrive. It protects against
-              damage from burst water pipes and heat loss through openings in the building envelope.
-              Inspectors should understand winterization and be able to inform their clients.
-              `,
+              text: "Foreclosure Clean Outs",
             },
             {
               id: 5,
-              text: `
-              Water damage from burst pipes in cold weather can be devastating. A ruptured pipe will
-              release water until someone shuts it off, potentially flooding a house and causing
-              extensive damage if no one is home. Even minor ruptures or quickly stopped leaks can
-              lead to mold and property damage, and repairing broken water pipes can be expensive.
-              `,
+              text: "Renovation Clean Outs",
             },
             {
               id: 6,
-              text: `
-              All exposed water pipes in cold areas like attics, garages, and crawlspaces should be
-              insulated with foam or fiberglass insulation available at most hardware stores.
-              Insulation should cover the entire pipe. Plastic pipes tolerate cold expansion better
-              than copper or steel, making them beneficial in colder climates.
-              `,
+              text: "Storage Unit Clean Outs",
+            },
+          ],
+        },
+        {
+          id: 5,
+          title: "Property Clean Outs:",
+          data: [
+            {
+              id: 1,
+              text: "Trash Removal",
             },
             {
-              id: 7,
-              text: `
-              The water supply for exterior pipes should be shut off from inside the house and
-              drained. Sprinkler systems are particularly vulnerable to cracking from cold-weather
-              expansion, so it's helpful to purge any remaining water with compressed air after
-              turning them off.
-              `,
+              id: 2,
+              text: "Waste Removal",
             },
             {
-              id: 8,
-              text: `
-               Homeowners should remember that much of the plumbing system runs through
-               significantly colder areas of the house. Since it's impossible to monitor the
-               temperature of every part of the plumbing system, the indoor air temperature should
-               be kept high enough throughout winter to prevent pipes in unheated places from
-               freezing.
-              `,
+              id: 3,
+              text: "Debris Removal",
+            },
+            {
+              id: 4,
+              text: "Garbage Removal",
+            },
+            {
+              id: 5,
+              text: "Construction Site Clean Ups",
+            },
+            {
+              id: 6,
+              text: "Renovation & Remodel Clean Ups",
             },
           ],
         },
@@ -165,9 +196,9 @@ const ServicesView = () => {
       id: 3,
       title: "Securing and Boarding",
       text: `
-        At FixFrame Inc., we recognize the significance of a healthy living environment for you and
-        your family. Mold can pose a hidden danger, lurking in corners and crawlspaces, undermining
-        your home’s structure,
+        At Fix&Frame, we understand the importance of maintaining a healthy living space for
+        you and your family. Mold can be a hidden threat, often found in corners and
+        crawlspaces, gradually compromising the integrity of your home.
       `,
       images: [
         {
@@ -296,9 +327,9 @@ const ServicesView = () => {
       id: 6,
       title: "Repairs and Damages",
       text: `
-        At FixFrame Inc., we recognize the significance of a healthy living environment for you and
-        your family. Mold can pose a hidden danger, lurking in corners and crawlspaces, undermining
-        your home’s structure,
+        At Fix&Frame, we understand the importance of maintaining a healthy living space
+        for you and your family. Mold can be a hidden threat, often found in corners and
+        crawlspaces, gradually compromising the integrity of your home.
       `,
       images: [
         {
@@ -369,7 +400,7 @@ const ServicesView = () => {
         },
         {
           id: 2,
-          title: "Why Choose FixFrame?",
+          title: "FixFrame?",
           data: [
             {
               id: 1,
@@ -427,9 +458,9 @@ const ServicesView = () => {
       id: 5,
       title: "Maid Service (Cleaning)",
       text: `
-        At FixFrame Inc., we recognize the significance of a healthy living environment for you and
-        your family. Mold can pose a hidden danger, lurking in corners and crawlspaces, undermining
-        your home’s structure,
+        At Fix&Frame, we understand the importance of maintaining a healthy living space
+        for you and your family. Mold can be a hidden threat, often found in corners and
+        crawlspaces, gradually compromising the integrity of your home.
       `,
       images: [
         {
@@ -573,9 +604,9 @@ const ServicesView = () => {
       id: 2,
       title: "Debris removal",
       text: `
-        At FixFrame Inc., we recognize the significance of a healthy living environment for you and
-        your family. Mold can pose a hidden danger, lurking in corners and crawlspaces, undermining
-        your home’s structure,
+        At Fix&Frame, we understand the importance of maintaining a healthy living space for
+        you and your family. Mold can be a hidden threat, often found in corners and
+        crawlspaces, gradually compromising the integrity of your home.
       `,
       images: [
         {
@@ -863,6 +894,7 @@ const ServicesView = () => {
                           <img
                             height={410}
                             src={el.image}
+                            loading="lazy"
                             alt="contact-house-image-1"
                             className="services-view__house-image"
                           />
@@ -951,6 +983,7 @@ const ServicesView = () => {
                     <img
                       height={630}
                       alt="contact"
+                      loading="lazy"
                       src={ContactImage}
                       className="services-view__contact-image"
                     />

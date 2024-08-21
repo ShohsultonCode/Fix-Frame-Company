@@ -24,6 +24,7 @@ const Leading = () => {
           </div>
           <img
             height={500}
+            loading="lazy"
             src={LeadingImage}
             alt="leading image"
             className="leading__background-image"

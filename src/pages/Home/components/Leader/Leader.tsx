@@ -46,6 +46,7 @@ const Leader = () => {
                 alt="MCS"
                 width={180}
                 height={80}
+                loading="lazy"
                 src={LeaderImage1}
                 className="leader__item-img"
               />
@@ -57,6 +58,7 @@ const Leader = () => {
                 width={180}
                 height={80}
                 alt="CHICAGO"
+                loading="lazy"
                 src={LeaderImage2}
                 className="leader__item-img"
               />
@@ -67,6 +69,7 @@ const Leader = () => {
               <img
                 width={180}
                 height={80}
+                loading="lazy"
                 alt="Altisource"
                 src={LeaderImage3}
                 className="leader__item-img"
@@ -79,6 +82,7 @@ const Leader = () => {
                 width={180}
                 height={80}
                 alt="Bello"
+                loading="lazy"
                 src={LeaderImage4}
                 className="leader__item-img"
               />
@@ -89,6 +93,7 @@ const Leader = () => {
               <img
                 width={180}
                 height={80}
+                loading="lazy"
                 src={LeaderImage5}
                 alt="Hostel URBANIST"
                 className="leader__item-img"
@@ -101,6 +106,7 @@ const Leader = () => {
                 alt="MCS"
                 width={180}
                 height={80}
+                loading="lazy"
                 src={LeaderImage1}
                 className="leader__item-img"
               />
@@ -112,6 +118,7 @@ const Leader = () => {
                 width={180}
                 height={80}
                 alt="CHICAGO"
+                loading="lazy"
                 src={LeaderImage2}
                 className="leader__item-img"
               />
@@ -122,6 +129,7 @@ const Leader = () => {
               <img
                 width={180}
                 height={80}
+                loading="lazy"
                 alt="Altisource"
                 src={LeaderImage3}
                 className="leader__item-img"
@@ -134,6 +142,7 @@ const Leader = () => {
                 width={180}
                 height={80}
                 alt="Bello"
+                loading="lazy"
                 src={LeaderImage4}
                 className="leader__item-img"
               />
@@ -144,6 +153,7 @@ const Leader = () => {
               <img
                 width={180}
                 height={80}
+                loading="lazy"
                 src={LeaderImage5}
                 alt="Hostel URBANIST"
                 className="leader__item-img"

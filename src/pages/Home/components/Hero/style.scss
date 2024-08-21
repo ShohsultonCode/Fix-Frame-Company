@@ -101,10 +101,11 @@ $contact-title-color: #ffffff;
   }
 
   &-image {
-    width: 1400px;
+    width: 655px;
     height: 610px;
     object-fit: cover;
     position: relative;
+    left: 115px;
 
     @include lg {
       height: 550px;

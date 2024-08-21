@@ -153,8 +153,7 @@ const NewsView = () => {
           ],
         },
       ],
-      title:
-        "Transforming Spaces:Experts in Retail and Residential Construction Services bu FixFrame Inc.",
+      title: "Landscape and Snow Removal",
       text: `
         Creating an inviting ambiance and an captivating design can continually draw devoted customers to
         your business. From the outward appearance to the internal intricacies, every facet of a retail
@@ -184,10 +183,10 @@ const NewsView = () => {
       ],
       title: "How To Clean Up Mold Properly",
       text: `
-        Mold contamination is a troublesome issue that damages your home and jeopardizes your health.
-        If left unaddressed, it can propagate and escalate, particularly for individuals with respiratory
-        ailments. Therefore, it's imperative to rid your house of mold promptly. Here are the steps to
-        adhere to for...
+        Mold contamination is a troublesome issue that damages your home and jeopardizes your
+        health. If left unaddressed, it can propagate and escalate, particularly for individuals
+        with respiratory ailments. Therefore, it's imperative to rid your house of mold
+        promptly.  Here are the steps to follow for proper cleaning up of mold:
       `,
       listData: [
         {
@@ -281,113 +280,89 @@ const NewsView = () => {
       ],
       title: "Mold Remediation and Inspection Services",
       text: `
-        Welcome to Ninja Group Inc., your reliable ally in mold remediation solutions. At Ninja Group Inc.,
-        we recognize the significance of a healthy living environment for you and your family. Mold can pose a
-        quiet danger, lurking in corners and crawlspaces, undermining your home’s structure, and potentially
-        impacting your well-being. We are here to...
+        Welcome to Fix&Frame, your reliable ally in mold remediation solutions. At Fix&Frame,
+        we recognize the significance of a healthy living environment for you and your family.
+        Mold can pose a quiet danger, lurking in corners and crawlspaces, undermining your
+        home’s structure, and potentially impacting your well-being. We are here to help you
+        regain control and peace of mind.
       `,
       listData: [
         {
           id: 1,
-          title: "Our Expertise:",
+          title: "Landscaping Services:",
           data: [
             {
-              text: `At FixFrame Inc., we've perfected the craft of mold remediation. Our team of expert professionals 
-              blends state-of-the-art technology with extensive experience to provide thorough mold removal and
-              prevention services. We treat every project with the utmost seriousness, regardless of its scale or
-              complexity, and tackle each one with meticulous attention and dedication.`,
+              text: `Landscaping services involve the design, installation, and maintenance 
+              of outdoor spaces to enhance the aesthetics and functionality of a property. `,
             },
           ],
         },
         {
           id: 2,
-          title: "Why Choose FixFrame?",
+          title: "Common landscaping services include:",
           data: [
             {
-              text: `Qualified Experts: Our technicians hold certifications from top industry organizations, 
-              ensuring that your mold issue receives the utmost professional attention.`,
+              text: `Lawn Care: Mowing, fertilizing, aeration, and weed control to keep lawns 
+              healthy and attractive.`,
             },
             {
-              text: `Cutting-edge Technology: We employ advanced equipment and techniques for mold inspection, 
-              elimination, and prevention, ensuring effective and long-lasting outcomes.`,
+              text: `Garden Design and Installation: Creating and planting gardens with 
+              flowers, shrubs, and trees.`,
             },
             {
-              text: `Tailored Approaches: Each mold situation is distinct. We customize our solutions to fit your 
-              exact requirements, addressing the underlying cause rather than just the surface issues.`,
+              text: `Hardscaping: Installing patios, walkways, retaining walls, and other 
+              non-plant elements.`,
+            },
+            {
+              text: `Irrigation Systems: Designing and installing systems to ensure plants 
+              receive adequate water.`,
+            },
+            {
+              text: `Seasonal Clean-Up: Removing leaves, debris, and preparing gardens for 
+              different seasons.`,
+            },
+            {
+              text: `Tree and Shrub Care: Pruning, trimming, and treating trees and shrubs to 
+              promote growth and health.`,
             },
           ],
         },
         {
           id: 3,
-          title: "Our Services:",
+          title: "Snow Removal Services",
           data: [
             {
-              text: `Mold Assessment: Our specialists perform thorough assessments to determine the type and 
-              scope of mold presence in your premises.`,
-            },
-            {
-              text: `Mold Eradication: Employing state-of-the-art methods, we securely and efficiently eliminate 
-              mold from your property, preventing its recurrence.`,
-            },
-            {
-              text: `Preventive Actions: We enact preventive measures to deter mold reappearance, safeguarding 
-              your residence and well-being for the future.`,
-            },
-          ],
-        },
-        {
-          id: 4,
-          title: "Health and Safety:",
-          data: [
-            {
-              text: `At FixFrame, your health is our foremost concern. Mold can lead to various health concerns, 
-              such as allergies and respiratory issues. We adhere to strict safety measures to safeguard both our
-              crew and your household throughout the remediation procedure. Our dedication to your well-being is
-              steadfast.`,
-            },
-          ],
-        },
-        {
-          id: 5,
-          title: "Service Areas:",
-          data: [
-            {
-              text: `FixFrame proudly serves homeowners and businesses throughout Chicago and the surrounding 
-              regions. We're only a phone call away, prepared to promptly address your mold-related inquiries.`,
-            },
-          ],
-        },
-        {
-          id: 6,
-          title: "Contact Us:",
-          data: [
-            {
-              text: `Don't allow mold to jeopardize your home or health any further. Reach out to Ninja Group Inc 
-              today to arrange an inspection or discuss your mold removal requirements. Our helpful team is ready
-              to help you.`,
+              text: `Snow removal services ensure safe and accessible pathways during winter months.
+              These services include:`,
             },
             {
               text: `
-                If you think only untidy homes are susceptible to mold, you might be mistaken. Whether it’s your
-                residence or workplace, mold can thrive anywhere. What’s more alarming? Often, homeowners are unaware
-                of mold presence in their homes.
+                Snow Plowing: Clearing snow from driveways, parking lots, and roads.
               `,
             },
             {
-              text: `Unchecked mold growth can pose a health hazard. Left untreated, mold can rapidly spread 
-              throughout your property, causing structural damage and impacting its value.`,
+              text: `
+                Snow Blowing: Using snow blowers to remove snow from walkways, sidewalks, and
+                smaller areas.
+              `,
             },
             {
-              text: `The longer mold is allowed to flourish, the more harm it can cause.`,
+              text: `
+                Shoveling: Manually clearing snow from steps, porches, and areas not
+                accessible by machinery.
+              `,
             },
             {
-              text: `To prevent serious health risks, mold growth must be addressed promptly.`,
+              text: `
+                De-Icing: Applying salt or other de-icing agents to prevent ice formation and
+                ensure surfaces are safe to walk or drive on.
+              `,
             },
             {
-              text: `We offer mold inspection and remediation services to ensure your home is safe for you and your 
-              family. Our mold inspectors meticulously examine your indoor spaces. We utilize advanced technology
-              to detect and assess mold, as well as identify the underlying conditions promoting its growth.
-              Additionally, we provide mold remediation services to restore your home to a healthy environment.`,
+              text: `
+                Snow Hauling: Transporting excess snow to designated areas when it accumulates
+                to an obstructive level.
+              `,
             },
           ],
         },
@@ -417,14 +392,14 @@ const NewsView = () => {
       text: `
         Your bathroom is the one place where you start your morning as well as freshen up at the end of a long tiring
         day. While designing your bathroom, it should be functional and look fabulous. So, here are a few tips
-        for you to build your dream bathroom: Efficient Design No matter how beautiful the...
+        for you to build your dream bathroom: 
       `,
       listData: [
         {
           id: 1,
           title: `
           The bathroom is one of the most used rooms in your home where you can relax and unwind after a long day.
-          Updating this space or adding a new bathroom is one of the best ways to add value to your home.  Ninja Group
+          Updating this space or adding a new bathroom is one of the best ways to add value to your home.  
           Team can help you plan, design, and coordinate the perfect bathroom remodel that fits in your budget.
         `,
           data: [
@@ -439,7 +414,7 @@ const NewsView = () => {
             {
               text: `
                 Our projects encompass master bathrooms, guest bathrooms, powder rooms, half baths, bathtub to shower
-                conversions, and complete bathroom renovations from demolition to completion. At Ninja Group Inc.,
+                conversions, and complete bathroom renovations from demolition to completion. At Fix&Frame Inc.,
                 we possess the expertise and resources to serve as your comprehensive solution for all bathroom
                 remodeling needs.
               `,
@@ -460,7 +435,7 @@ const NewsView = () => {
             },
             {
               text: `
-                At Ninja Group, we are committed to designing and renovating your bathroom according to your style
+                At Fix&Frame, we are committed to designing and renovating your bathroom according to your style
                 and budget preferences. Our range of services includes bathroom design, renovation, plumbing, water
                 damage repair, and everything you need to create your ideal bathroom. We strive to provide top-tier
                 services to ensure you experience luxury in your own home.
@@ -490,12 +465,11 @@ const NewsView = () => {
           image: newsHouseImage19,
         },
       ],
-      title:
-        "Transforming Spaces:Experts in Retail and Residential Construction  ",
+      title: "Landscape and Snow Removal",
       text: `
         Your bathroom is the one place where you start your morning as well as freshen up at the end of a long tiring
         day. While designing your bathroom, it should be functional and look fabulous. So, here are a few tips for you
-        to build your dream bathroom: Efficient Design No matter how beautiful the...
+        to build your dream bathroom: 
       `,
       listData: [
         {
@@ -603,6 +577,7 @@ const NewsView = () => {
                           <img
                             height={410}
                             src={el.image}
+                            loading="lazy"
                             alt="contact-house-image-1"
                             className="news-view__house-image"
                           />

@@ -11,6 +11,7 @@ const Mission = () => {
               <img
                 width={98}
                 height={98}
+                loading="lazy"
                 alt="vision icon"
                 src={MissionIcon1}
                 className="mission__box-icon"
@@ -32,6 +33,7 @@ const Mission = () => {
               <img
                 width={98}
                 height={98}
+                loading="lazy"
                 alt="mission icon"
                 src={MissionIcon2}
                 className="mission__box-icon"

@@ -400,7 +400,7 @@ const ServicesView = () => {
         },
         {
           id: 2,
-          title: "FixFrame?",
+          title: "Fix&Frame?",
           data: [
             {
               id: 1,
@@ -443,7 +443,7 @@ const ServicesView = () => {
             {
               id: 1,
               text: `
-              At FixFrame, quality and satisfaction are the cornerstones of our service. We use the
+              At Fix&Frame, quality and satisfaction are the cornerstones of our service. We use the
               highest quality materials and follow industry best practices to ensure that all
               repairs are durable and long-lasting. Our commitment to excellence means that we stand
               behind our work and strive to achieve the highest levels of customer satisfaction.
@@ -634,7 +634,7 @@ const ServicesView = () => {
             {
               id: 1,
               text: `
-              At FixFrame Inc., we've perfected the craft of mold remediation. Our team of expert 
+              At Fix&Frame Inc., we've perfected the craft of mold remediation. Our team of expert 
               professionals blends state- of - the - art technology with extensive experience to 
               provide thorough mold removal and prevention services.We treat every project with the 
               utmost seriousness, regardless of its scale or complexity, and tackle each one with 
@@ -645,7 +645,7 @@ const ServicesView = () => {
         },
         {
           id: 2,
-          title: "Why Choose FixFrame?",
+          title: "Why Choose Fix&Frame?",
           data: [
             {
               id: 1,
@@ -705,7 +705,7 @@ const ServicesView = () => {
             {
               id: 1,
               text: `
-               At FixFrame, your health is our foremost concern.Mold can lead to various health 
+               At Fix&Frame, your health is our foremost concern.Mold can lead to various health 
                concerns, such as allergies and respiratory issues.We adhere to strict safety 
                measures to safeguard both our crew and your household throughout the remediation 
                procedure.Our dedication to your well- being is steadfast.
@@ -720,7 +720,7 @@ const ServicesView = () => {
             {
               id: 1,
               text: `
-               FixFrame proudly serves homeowners and businesses throughout Chicago and the
+               Fix&Frame proudly serves homeowners and businesses throughout Chicago and the
                surrounding regions. We're only a phone call away, prepared to promptly address
                your mold-related inquiries.
             `,
@@ -734,8 +734,8 @@ const ServicesView = () => {
             {
               id: 1,
               text: `
-               Don't allow mold to jeopardize your home or health any further. Reach out to Ninja 
-               Group Inc today to arrange an inspection or discuss your mold removal requirements.
+               Don't allow mold to jeopardize your home or health any further. Reach out to Fix&Frame 
+                Inc today to arrange an inspection or discuss your mold removal requirements.
               Our helpful team is ready to help you
             `,
             },
@@ -810,7 +810,7 @@ const ServicesView = () => {
             {
               id: 1,
               text: `
-              At FixFrame Inc., we've perfected the craft of mold remediation. Our team of expert
+              At Fix&Frame Inc., we've perfected the craft of mold remediation. Our team of expert
               professionals blends state-of-the-art technology with extensive experience to provide
               thorough mold removal and prevention services. We treat every project with the utmost
               seriousness, regardless of its scale or complexity, and tackle each one with
@@ -821,7 +821,7 @@ const ServicesView = () => {
         },
         {
           id: 2,
-          title: "Why Choose FixFrame?",
+          title: "Why Choose Fix&Frame?",
           data: [
             {
               id: 1,

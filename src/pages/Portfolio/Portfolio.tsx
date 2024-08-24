@@ -144,7 +144,7 @@ const Portfolio = () => {
                     height={32}
                     loading="lazy"
                     src={ContactMediaIcon1}
-                    alt="FixFrame instagram"
+                    alt="Fix&Frame instagram"
                     className="portfolio__media-icon"
                   />
                 </a>
@@ -156,7 +156,7 @@ const Portfolio = () => {
                     height={32}
                     loading="lazy"
                     src={ContactMediaIcon2}
-                    alt="FixFrame facebook"
+                    alt="Fix&Frame facebook"
                     className="portfolio__media-icon"
                   />
                 </a>
@@ -168,7 +168,7 @@ const Portfolio = () => {
                     height={32}
                     loading="lazy"
                     src={ContactMediaIcon3}
-                    alt="FixFrame telephone"
+                    alt="Fix&Frame telephone"
                     className="portfolio__media-icon"
                   />
                 </a>
@@ -279,7 +279,7 @@ const Portfolio = () => {
                     height={32}
                     loading="lazy"
                     src={ContactMediaIcon1}
-                    alt="FixFrame instagram"
+                    alt="Fix&Frame instagram"
                     className="portfolio__media-icon"
                   />
                 </a>
@@ -291,7 +291,7 @@ const Portfolio = () => {
                     height={32}
                     loading="lazy"
                     src={ContactMediaIcon2}
-                    alt="FixFrame facebook"
+                    alt="Fix&Frame facebook"
                     className="portfolio__media-icon"
                   />
                 </a>
@@ -303,7 +303,7 @@ const Portfolio = () => {
                     height={32}
                     loading="lazy"
                     src={ContactMediaIcon3}
-                    alt="FixFrame telephone"
+                    alt="Fix&Frame telephone"
                     className="portfolio__media-icon"
                   />
                 </a>
@@ -413,7 +413,7 @@ const Portfolio = () => {
                     height={32}
                     loading="lazy"
                     src={ContactMediaIcon1}
-                    alt="FixFrame instagram"
+                    alt="Fix&Frame instagram"
                     className="portfolio__media-icon"
                   />
                 </a>
@@ -425,7 +425,7 @@ const Portfolio = () => {
                     height={32}
                     loading="lazy"
                     src={ContactMediaIcon2}
-                    alt="FixFrame facebook"
+                    alt="Fix&Frame facebook"
                     className="portfolio__media-icon"
                   />
                 </a>
@@ -437,7 +437,7 @@ const Portfolio = () => {
                     height={32}
                     loading="lazy"
                     src={ContactMediaIcon3}
-                    alt="FixFrame telephone"
+                    alt="Fix&Frame telephone"
                     className="portfolio__media-icon"
                   />
                 </a>

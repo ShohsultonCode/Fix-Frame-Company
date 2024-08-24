@@ -96,14 +96,7 @@ const Result = () => {
               </p>
             </li>
           </ul>
-          <img
-            width={400}
-            height={455}
-            loading="lazy"
-            src={ResultImage}
-            alt="FixFrame phone"
-            className="result__container-image"
-          />
+ 
         </div>
       </div>
     </section>

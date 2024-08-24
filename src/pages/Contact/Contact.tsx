@@ -26,13 +26,13 @@ const Contact = () => {
 
   return (
     <section className="contact">
-      <h1 className="visually-hidden">FixFrame contact</h1>
+      <h1 className="visually-hidden">Fix&Frame contact</h1>
       <div className="contact__background" style={backgroundStyle}>
         <div className="container">
           <h2 className="contact__background-heading">Contact us</h2>
           <hr className="contact__background-horizontal-rule" />
           <p className="contact__background-text">
-            FixFrame is ready provide the right solution according to your
+            Fix&Frame is ready provide the right solution according to your
             needs.
           </p>
         </div>
@@ -87,7 +87,7 @@ const Contact = () => {
                 <div className="contact__content">
                   <h3 className="contact__content-title">Email us</h3>
                   <span className="contact__content-text">
-                    Fixframe@fixframeinvest.com
+                    Fix&Frame@fixframeinvest.com
                   </span>
                 </div>
               </a>
@@ -126,7 +126,7 @@ const Contact = () => {
                   height={32}
                   loading="lazy"
                   src={ContactMediaIcon1}
-                  alt="FixFrame instagram"
+                  alt="Fix&Frame instagram"
                   className="contact__blank-icon"
                 />
               </a>
@@ -138,7 +138,7 @@ const Contact = () => {
                   height={32}
                   loading="lazy"
                   src={ContactMediaIcon2}
-                  alt="FixFrame facebook"
+                  alt="Fix&Frame facebook"
                   className="contact__blank-icon"
                 />
               </a>
@@ -150,7 +150,7 @@ const Contact = () => {
                   height={32}
                   loading="lazy"
                   src={ContactMediaIcon3}
-                  alt="FixFrame telephone"
+                  alt="Fix&Frame telephone"
                   className="contact__blank-icon"
                 />
               </a>

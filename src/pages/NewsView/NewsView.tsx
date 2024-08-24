@@ -98,7 +98,7 @@ const NewsView = () => {
             project. You can rely on top-notch materials, excellent craftsmanship, and efficient management
             techniques. We address specific challenges collaboratively and consistently achieve the results you
             anticipate, on schedule and within budget. Few retail construction firms in Illinois can match the
-            extensive expertise we offer at FixFrame
+            extensive expertise we offer at Fix&Frame
           `,
             },
           ],
@@ -390,9 +390,7 @@ const NewsView = () => {
       ],
       title: "Building Your Dream Bathroom",
       text: `
-        Your bathroom is the one place where you start your morning as well as freshen up at the end of a long tiring
-        day. While designing your bathroom, it should be functional and look fabulous. So, here are a few tips
-        for you to build your dream bathroom: 
+The bathroom is one of the most used rooms in your home. It's a place where you can relax after a long day. Updating your bathroom or adding a new one is a great way to increase the value of your home. The Fix&Frame team can help you plan, design, and coordinate the perfect bathroom remodel that fits your budget.
       `,
       listData: [
         {
@@ -467,9 +465,7 @@ const NewsView = () => {
       ],
       title: "Landscape and Snow Removal",
       text: `
-        Your bathroom is the one place where you start your morning as well as freshen up at the end of a long tiring
-        day. While designing your bathroom, it should be functional and look fabulous. So, here are a few tips for you
-        to build your dream bathroom: 
+       The bathroom is one of the most used rooms in your home. It's a place where you can relax after a long day. Updating your bathroom or adding a new one is a great way to increase the value of your home. The Fix&Frame team can help you plan, design, and coordinate the perfect bathroom remodel that fits your budget.
       `,
       listData: [
         {
@@ -483,7 +479,7 @@ const NewsView = () => {
                 top-quality materials, exceptional craftsmanship, and efficient management strategies. We address
                 unique challenges with a collaborative approach and consistently deliver the results you expect on time
                 and within budget. Few retail construction companies in Illinois can match the comprehensive expertise
-                we offer at FixFrame.
+                we offer at Fix&Frame.
               `,
             },
           ],
@@ -528,7 +524,7 @@ const NewsView = () => {
             {
               text: `
                 You expect and deserve exceptional customer care and transparent communication from your residential
-                construction contractor. At FixFrame, we are dedicated to building our partnership with you through
+                construction contractor. At Fix&Frame, we are dedicated to building our partnership with you through
                 personal consultations and accurate updates at every stage of the project. We are always available to
                 answer your questions, resolve any issues, and develop strategies that meet your approval. With your
                 input, we customize our services to ensure success, regardless of your project’s size. You can always
@@ -540,7 +536,7 @@ const NewsView = () => {
               text: `
                 We take pride in our strong reputation as a leading residential contractor in Illinois, and we invite
                 you to review our extensive job portfolio. For over ten years, private and corporate clients across
-                the state have experienced successful retail construction and remodeling by partnering with FIxFrame.
+                the state have experienced successful retail construction and remodeling by partnering with Fix&Frame.
                 Contact our team today, and let us bring our best to all your future projects.
               `,
             },

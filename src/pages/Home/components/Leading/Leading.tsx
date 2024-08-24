@@ -9,7 +9,7 @@ const Leading = () => {
         <div className="leading__background">
           <div className="leading__content">
             <h2 className="leading__content-title">
-              FixFrame is a leading national property management service
+              Fix&Frame is a leading national property management service
               provider with a proven track record of success in the industry.
             </h2>
             <hr className="leading__content-horizontal-rule" />

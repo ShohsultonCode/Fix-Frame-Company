@@ -17,7 +17,7 @@ const OurAbout = () => {
             />
             <div className="our-about__content">
               <h2 className="our-about__content-title">
-                The FixFrame Difference
+                The Fix&Frame Difference
               </h2>
               <p className="our-about__content-text">
                 We developed our uncommon expertise and stellar record of
@@ -33,7 +33,7 @@ const OurAbout = () => {
             <div className="our-about__content">
               <h2 className="our-about__content-title">Our Experience</h2>
               <p className="our-about__content-text">
-                Founded in 2023,FixFrame has built a strong reputation in the
+                Founded in 2023,Fix&Frame has built a strong reputation in the
                 industry for our comprehensive asset management services. Our
                 management team has extensive experience in all phases of
                 property management, including preservation and maintenance,

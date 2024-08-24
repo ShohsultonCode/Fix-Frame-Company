@@ -13,7 +13,7 @@ const Footer = () => {
               height="100"
               loading="lazy"
               src={fixFrameLogo}
-              alt="FixFrame logo"
+              alt="Fix&Frame logo"
               className="footer__container-logo"
             />
           </Link>
@@ -70,7 +70,7 @@ const Footer = () => {
                   />
                 </svg>
 
-                <span className="footer__contact-text">team@FixFrame</span>
+                <span className="footer__contact-text">team@Fix&Frame</span>
               </a>
             </li>
           </ul>
@@ -147,7 +147,7 @@ const Footer = () => {
         loading="lazy"
         className="footer-map"
         referrerPolicy="no-referrer-when-downgrade"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.9481832180036!2d69.26721097616911!3d41.375210496750135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8d98908cbb41%3A0x87328286b27698a6!2sALFRAGANUS%20UNIVERSITY!5e0!3m2!1suz!2s!4v1719820319415!5m2!1suz!2s"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.5518631999507!2d-88.08540942290733!3d41.859471671243774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e53837e51b83b%3A0x9211aa680a29e6a!2s1715%20E%20Roosevelt%20Rd%2C%20Wheaton%2C%20IL%2060187%2C%20USA!5e0!3m2!1sen!2s!4v1724474931714!5m2!1sen!2s"
       ></iframe>
     </footer>
   );

@@ -20,7 +20,7 @@ const Mission = () => {
             <div className="mission__content">
               <h2 className="mission__content-title">Our Vision</h2>
               <p className="mission__content-text">
-                FixFrame was founded to provide our clients with
+                Fix&Frame was founded to provide our clients with
                 industry-leading services that meet and exceed all their
                 expectations. We strive to be the best and to consistently
                 deliver the highest quality of work, while maintaining

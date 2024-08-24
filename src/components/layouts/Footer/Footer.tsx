@@ -147,10 +147,12 @@ const Footer = () => {
         loading="lazy"
         className="footer-map"
         referrerPolicy="no-referrer-when-downgrade"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.5518631999507!2d-88.08540942290733!3d41.859471671243774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e53837e51b83b%3A0x9211aa680a29e6a!2s1715%20E%20Roosevelt%20Rd%2C%20Wheaton%2C%20IL%2060187%2C%20USA!5e0!3m2!1sen!2s!4v1724474931714!5m2!1sen!2s"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.551861863702!2d-88.08283449999999!3d41.8594717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e53837e51b83b%3A0x9211aa680a29e6a!2s1715%20E%20Roosevelt%20Rd%2C%20Wheaton%2C%20IL%2060187%2C%20USA!5e0!3m2!1sen!2s!4v1724475493023!5m2!1sen!2s"
       ></iframe>
     </footer>
   );
 };
 
 export default Footer;
+
+

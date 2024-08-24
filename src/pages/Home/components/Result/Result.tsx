@@ -5,7 +5,7 @@ import {
   ResultImage4,
 } from "assets/images/svg";
 import "./style.scss";
-import { ResultImage } from "assets/images/png";
+// import { ResultImage } from "assets/images/png";
 
 const Result = () => {
   return (

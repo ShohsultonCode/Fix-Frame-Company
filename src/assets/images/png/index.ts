@@ -1,5 +1,5 @@
 import ErrorImage from "./error.png";
-import ResultImage from "./result.png";
+// import ResultImage from "./result.png";
 import { SliderImage1, SliderImage2 } from "./sliders";
 import {
   LeaderImage1,
@@ -11,7 +11,7 @@ import {
 
 export {
   ErrorImage,
-  ResultImage,
+  // ResultImage,
   SliderImage1,
   SliderImage2,
   LeaderImage1,

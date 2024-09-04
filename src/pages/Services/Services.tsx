@@ -120,7 +120,7 @@ const Services = () => {
         </ul>
       </div>
 
-      <div className="container">
+      {/* <div className="container">
         <ul className="services__list">
           <li className="services__item">
             <h3 className="services__item-title">Our Expertise:</h3>
@@ -245,8 +245,8 @@ const Services = () => {
               </li>
               <li className="services__sentence">
                 <p className="services__sentence-text">
-                  <strong>Quality and Satisfaction:</strong> At Fix&Frame, we are
-                  committed to delivering exceptional service and superior
+                  <strong>Quality and Satisfaction:</strong> At Fix&Frame, we
+                  are committed to delivering exceptional service and superior
                   results in inspection services and lawn maintenance. Whether
                   you're looking to enhance curb appeal, maintain property
                   value, or ensure a safe and inviting outdoor environment, you
@@ -257,7 +257,7 @@ const Services = () => {
             </ul>
           </li>
         </ul>
-      </div>
+      </div> */}
     </section>
   );
 };

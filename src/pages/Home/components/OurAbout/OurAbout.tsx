@@ -65,7 +65,7 @@ const OurAbout = () => {
             />
             <div className="our-about__content">
               <h2 className="our-about__content-title">
-                Excellence in every build
+                Excellence in Every Build
               </h2>
               <p className="our-about__content-text">
                 Our team members have a duty to build upon our strong heritage

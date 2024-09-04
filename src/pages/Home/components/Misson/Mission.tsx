@@ -24,7 +24,7 @@ const Mission = () => {
                 industry-leading services that meet and exceed all their
                 expectations. We strive to be the best and to consistently
                 deliver the highest quality of work, while maintaining
-                affordability and transparency in our pricing
+                affordability and transparency in our pricing.
               </p>
             </div>
           </li>

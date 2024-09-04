@@ -57,12 +57,7 @@ const ServicesView = () => {
       id: 4,
       title: "Property winterization",
       text: `
-        As an REO agent, you understand the importance of maintaining the appeal of bank-owned
-        properties to attract potential buyers and close deals. Fix&Frame provides dependable,
-        ongoing, and one-time clean-out and clean-up services, including debris removal, for
-        REO properties. Whether it's residential, commercial, industrial properties, or
-        undeveloped land, our reliable REO clean-out teams will be your trusted partner in
-        ensuring the continued upkeep of all your bank-owned properties.
+        Winterizing your property safeguards it from the harsh winter winds. Missing even one element, like the radiant heating system or plumbing fixtures, could lead to expensive repairs. Therefore, preparing your property for winter before fall is crucial to protect it and avoid costly damages.
       `,
       images: [
         {
@@ -90,115 +85,133 @@ const ServicesView = () => {
             {
               id: 1,
               text: `
-              We deploy scalable teams of licensed and insured professionals to conduct
-              thorough cleanouts of bank-owned properties. This includes clearing out all
-              leftover junk, furniture, and appliances, as well as cleaning up both interior
-              and exterior debris. We also offer complete cleanup services for undeveloped
-              land, handling everything from trash removal to tree and yard debris disposal.
+              Our property winterization services ensure your home is fully prepared for the winter season. We handle everything from maintaining heating systems to enhancing insulation, checking for potential leaks, and winterizing toilets. We go above and beyond to protect your property, offering top-notch services that fit your budget. Ready to get your home winter-ready? Reach out to us today.
+            `,
+            },
+            {
+              id: 2,
+              text: `
+              Winterization involves getting a home ready to withstand the harsh winter conditions, typically done in the fall before the onset of snow and extreme cold. This process helps prevent damage from burst water pipes and heat loss due to gaps in the building's exterior. Inspectors should understand the winterization process to educate their clients effectively.
+            `,
+            },
+            {
+              id: 3,
+              text: `
+              Water damage from burst pipes in cold weather can be catastrophic. When a pipe bursts, water continues to flow until the supply is shut off, potentially flooding the home and causing extensive damage if no one is there to intervene. Even minor leaks or quickly stopped ruptures can lead to mold and other property damage, and repairing broken pipes can be expensive.
+            `,
+            },
+            {
+              id: 4,
+              text: `
+              All exposed water pipes in cold areas, such as attics, garages, and crawlspaces, should be insulated using materials like foam or fiberglass, which are available at most hardware stores. Insulation should cover the entire pipe length. Plastic pipes, more resilient to cold expansion than copper or steel, may be beneficial in colder climates. The water supply to exterior pipes should be shut off from inside the home, and the pipes should be drained.
+            `,
+            },
+            {
+              id: 5,
+              text: `
+              Sprinkler systems are especially prone to cracking due to cold-weather expansion. Besides turning them off, it's advisable to use compressed air to clear any remaining water from the system. Homeowners should remember that plumbing often runs through areas much colder than the rest of the house. Since monitoring the temperature of all plumbing sections is impractical, maintaining a sufficiently high indoor temperature throughout the winter is essential to prevent pipes in unheated areas from freezing.
             `,
             },
           ],
         },
-        {
-          id: 2,
-          title: "Light Demolition and Cleanup Services for REO Properties ",
-          data: [
-            {
-              id: 1,
-              text: `
-                After the initial cleanout, our team can assist with light demolition tasks to
-                avoid the need for multiple contractors. This service accelerates the process,
-                making your property market-ready more quickly. Choosing LoadUp for your REO
-                cleanout and eco-friendly disposal needs ensures a streamlined experience.
-              `,
-            },
-          ],
-        },
-        {
-          id: 3,
-          title: "Range of Real Estate-Owned Property Services",
-          data: [
-            {
-              id: 1,
-              text: `
-                Every property is unique, and so are our cleanout solutions. Whether it’s a
-                residential, corporate building, or undeveloped land, our REO property
-                services are tailored to meet all your cleanup needs. Your account manager
-                is always on hand to provide upfront quotes, schedule services, and address
-                any questions.
-              `,
-            },
-          ],
-        },
-        {
-          id: 4,
-          title: "Property Clean Outs:",
-          data: [
-            {
-              id: 1,
-              text: "Office Clean Outs",
-            },
-            {
-              id: 2,
-              text: "Eviction Clean Outs",
-            },
-            {
-              id: 3,
-              text: "Apartment Clean Outs",
-            },
-            {
-              id: 4,
-              text: "Foreclosure Clean Outs",
-            },
-            {
-              id: 5,
-              text: "Renovation Clean Outs",
-            },
-            {
-              id: 6,
-              text: "Storage Unit Clean Outs",
-            },
-          ],
-        },
-        {
-          id: 5,
-          title: "Property Clean Outs:",
-          data: [
-            {
-              id: 1,
-              text: "Trash Removal",
-            },
-            {
-              id: 2,
-              text: "Waste Removal",
-            },
-            {
-              id: 3,
-              text: "Debris Removal",
-            },
-            {
-              id: 4,
-              text: "Garbage Removal",
-            },
-            {
-              id: 5,
-              text: "Construction Site Clean Ups",
-            },
-            {
-              id: 6,
-              text: "Renovation & Remodel Clean Ups",
-            },
-          ],
-        },
+        // {
+        //   id: 2,
+        //   title: "Light Demolition and Cleanup Services for REO Properties ",
+        //   data: [
+        //     {
+        //       id: 1,
+        //       text: `
+        //         After the initial cleanout, our team can assist with light demolition tasks to
+        //         avoid the need for multiple contractors. This service accelerates the process,
+        //         making your property market-ready more quickly. Choosing LoadUp for your REO
+        //         cleanout and eco-friendly disposal needs ensures a streamlined experience.
+        //       `,
+        //     },
+        //   ],
+        // },
+        // {
+        //   id: 3,
+        //   title: "Range of Real Estate-Owned Property Services",
+        //   data: [
+        //     {
+        //       id: 1,
+        //       text: `
+        //         Every property is unique, and so are our cleanout solutions. Whether it’s a
+        //         residential, corporate building, or undeveloped land, our REO property
+        //         services are tailored to meet all your cleanup needs. Your account manager
+        //         is always on hand to provide upfront quotes, schedule services, and address
+        //         any questions.
+        //       `,
+        //     },
+        //   ],
+        // },
+        // {
+        //   id: 4,
+        //   title: "Property Clean Outs:",
+        //   data: [
+        //     {
+        //       id: 1,
+        //       text: "Office Clean Outs",
+        //     },
+        //     {
+        //       id: 2,
+        //       text: "Eviction Clean Outs",
+        //     },
+        //     {
+        //       id: 3,
+        //       text: "Apartment Clean Outs",
+        //     },
+        //     {
+        //       id: 4,
+        //       text: "Foreclosure Clean Outs",
+        //     },
+        //     {
+        //       id: 5,
+        //       text: "Renovation Clean Outs",
+        //     },
+        //     {
+        //       id: 6,
+        //       text: "Storage Unit Clean Outs",
+        //     },
+        //   ],
+        // },
+        // {
+        //   id: 5,
+        //   title: "Property Clean Outs:",
+        //   data: [
+        //     {
+        //       id: 1,
+        //       text: "Trash Removal",
+        //     },
+        //     {
+        //       id: 2,
+        //       text: "Waste Removal",
+        //     },
+        //     {
+        //       id: 3,
+        //       text: "Debris Removal",
+        //     },
+        //     {
+        //       id: 4,
+        //       text: "Garbage Removal",
+        //     },
+        //     {
+        //       id: 5,
+        //       text: "Construction Site Clean Ups",
+        //     },
+        //     {
+        //       id: 6,
+        //       text: "Renovation & Remodel Clean Ups",
+        //     },
+        //   ],
+        // },
       ],
     },
     {
       id: 3,
       title: "Securing and Boarding",
       text: `
-        At Fix&Frame, we understand the importance of maintaining a healthy living space for
-        you and your family. Mold can be a hidden threat, often found in corners and
-        crawlspaces, gradually compromising the integrity of your home.
+        The process of locking and protecting a property by securing entry points and covering windows and doors to prevent unauthorized access and damage.
       `,
       images: [
         {
@@ -235,88 +248,75 @@ const ServicesView = () => {
             {
               id: 2,
               text: `
-              Surveillance Installation: We install state-of-the-art surveillance systems that
-              provide 24/7 monitoring. Our cameras capture high-definition footage, which can be
-              accessed remotely for your convenience.
+          Property Lockdown: We secure all entry points, including doors, windows, and gates, to prevent unauthorized access and ensure your property is safe.
+              `,
+            },
+
+            {
+              id: 2,
+              text: `
+        Surveillance Installation: We install state-of-the-art surveillance systemsthat provide 24/7 monitoring. Our camerascapturehigh-definition footage, which can be accessed remotely for your convenience.
               `,
             },
             {
               id: 3,
               text: `
-              Alarm Systems: Our alarm systems are designed to detect any unauthorized entry or
-              suspicious activity. With immediate alerts, you can respond quickly to any potential
-              threats.
+            Alarm Systems: Our alarm systems are designed to detect any unauthorized entry or suspicious activity. With immediate alerts, you can respond quickly to any potential threats.
               `,
             },
             {
               id: 4,
               text: `
-              Security Inspections: Regular security inspections are conducted to identify and
-              address any vulnerabilities. We provide detailed reports and recommendations for
-              enhancing security measures.
+             Security Inspections: Regular security inspections are conducted to identify and address any vulnerabilities. We provide detailed reports and recommendations for enhancing security measures.
               `,
             },
             {
               id: 5,
               text: `
-              Emergency Response: In the event of a security breach or emergency, our team is
-              available to respond promptly and take necessary actions to mitigate any risks.
+              Emergency Response: In the event of a security breach or emergency, our team is available to respond promptly and take necessary actions to mitigate any risks.
               `,
             },
             {
               id: 6,
               text: `
-              Boarding Services: Our Boarding services are tailored to provide efficient and
-              effective property management solutions. We ensure your property is well-maintained
-              and ready for new tenants with the following services:
+              Boarding Services:
+       Our Boarding services are tailored to provide efficient and effective property management solutions. We ensure your property is well-maintained and ready for new tenants with the following services:
               `,
             },
             {
               id: 7,
               text: `
-              Tenant Placement: We carefully screen potential tenants to ensure they meet your
-              criteria, including background checks and reference verification. Our goal is to find
-              reliable and responsible tenants for your property.
+            Tenant Placement: We carefully screen potential tenants to ensure they meet your criteria, including background checks and reference verification. Our goal is to find reliable and responsible tenants for your property
               `,
             },
             {
               id: 8,
               text: `
-               Move-In/Move-Out Assistance: We handle all aspects of the move-in and move-out
-               process, including coordinating schedules, assisting with logistics, and conducting
-               property inspections to ensure smooth transitions.
+              Move-In/Move-Out Assistance: We handle all aspects of the move-in and move-out process, including coordinating schedules, assisting with logistics, and conducting property inspections to ensure smooth transitions.
               `,
             },
             {
               id: 9,
               text: `
-               Property Preparation: Our team prepares your property for new tenants by performing
-               thorough cleaning, minor repairs, and maintenance tasks. We ensure the property is in
-               excellent condition and ready for occupancy.
+          Property Preparation: Our team prepares your property for new tenants by performing thorough cleaning, minor repairs, and maintenance tasks. We ensure the property is in excellent condition and ready for occupanc.
               `,
             },
             {
               id: 10,
               text: `
-               Ongoing Support: We provide ongoing support and maintenance services, including
-               routine inspections, landscaping, and addressing any tenant concerns or maintenance
-               requests promptly
+              Ongoing Support: We provide ongoing support and maintenance services, including routine inspections, landscaping, and addressing any tenant concerns or maintenance requests promptly.
               `,
             },
             {
               id: 11,
               text: `
-               Lease Management: We manage all lease-related tasks, including drafting lease
-               agreements, handling renewals, and managing any necessary legal documentation. Our
-               goal is to ensure a hassle-free leasing experience for both you and your tenants.
+       Lease Management: We manage all lease-related tasks, including drafting lease agreements, handling renewals, and managing any necessary legal documentation. Our goal is to ensure a hassle-free leasing experience for both you and your tenants.
               `,
             },
             {
               id: 12,
               text: `
-               With our Securing and Boarding services, you can have peace of mind knowing that your
-               property is in capable hands. We are committed to providing top-notch service and
-               ensuring your property is safe, secure, and well-maintained.
+             With our Securing and Boarding services, you can have peace of mind knowing that your property is in capable hands. We are committed to providing top-notch service and ensuring your property is safe, secure, and well-maintained.
               `,
             },
           ],
@@ -327,9 +327,7 @@ const ServicesView = () => {
       id: 6,
       title: "Repairs and Damages",
       text: `
-        At Fix&Frame, we understand the importance of maintaining a healthy living space
-        for you and your family. Mold can be a hidden threat, often found in corners and
-        crawlspaces, gradually compromising the integrity of your home.
+       At Fix&Frame, we offer thorough and efficient property clean-out services to ensure your space is left spotless and ready for its next use. Whether you're dealing with a foreclosure, preparing a property for sale, or just need a deep clean, our team provides top-tier services tailored to your specific needs. We handle everything from debris removal and deep cleaning to junk hauling and sanitization. Trust us to leave your property in pristine condition.
       `,
       images: [
         {
@@ -436,31 +434,29 @@ const ServicesView = () => {
             },
           ],
         },
-        {
-          id: 3,
-          title: "Quality and Satisfaction:",
-          data: [
-            {
-              id: 1,
-              text: `
-              At Fix&Frame, quality and satisfaction are the cornerstones of our service. We use the
-              highest quality materials and follow industry best practices to ensure that all
-              repairs are durable and long-lasting. Our commitment to excellence means that we stand
-              behind our work and strive to achieve the highest levels of customer satisfaction.
-              When you choose us, you can be confident that your property is in good hands.
-            `,
-            },
-          ],
-        },
+        // {
+        //   id: 3,
+        //   title: "Quality and Satisfaction:",
+        //   data: [
+        //     {
+        //       id: 1,
+        //       text: `
+        //       At Fix&Frame, quality and satisfaction are the cornerstones of our service. We use the
+        //       highest quality materials and follow industry best practices to ensure that all
+        //       repairs are durable and long-lasting. Our commitment to excellence means that we stand
+        //       behind our work and strive to achieve the highest levels of customer satisfaction.
+        //       When you choose us, you can be confident that your property is in good hands.
+        //     `,
+        //     },
+        //   ],
+        // },
       ],
     },
     {
       id: 5,
       title: "Maid Service (Cleaning)",
       text: `
-        At Fix&Frame, we understand the importance of maintaining a healthy living space
-        for you and your family. Mold can be a hidden threat, often found in corners and
-        crawlspaces, gradually compromising the integrity of your home.
+        At Fix&Frame, we offer thorough and efficient property clean-out services to ensure your space is left spotless and ready for its next use. Whether you're dealing with a foreclosure, preparing a property for sale, or just need a deep clean, our team provides top-tier services tailored to your specific needs. We handle everything from debris removal and deep cleaning to junk hauling and sanitization. Trust us to leave your property in pristine condition.
       `,
       images: [
         {
@@ -604,9 +600,11 @@ const ServicesView = () => {
       id: 2,
       title: "Debris removal",
       text: `
-        At Fix&Frame, we understand the importance of maintaining a healthy living space for
-        you and your family. Mold can be a hidden threat, often found in corners and
-        crawlspaces, gradually compromising the integrity of your home.
+        As an REO agent, you understand the importance of maintaining the appeal of bank-owned properties to
+        attract potential buyers and close deals. Fix&Frame provides dependable, ongoing, and one-time
+        clean-out and clean-up services, including debris removal, for REO properties. Whether it's
+        residential, commercial, industrial properties, or undeveloped land, our reliable REO clean-out
+        teams will be your trusted partner in ensuring the continued upkeep of all your bank-owned properties.
       `,
       images: [
         {
@@ -629,155 +627,74 @@ const ServicesView = () => {
       listData: [
         {
           id: 1,
-          title: "Our Expertise:",
+          title: "Comprehensive REO Property Clean-Out and Debris Removal:",
           data: [
             {
               id: 1,
               text: `
-              At Fix&Frame Inc., we've perfected the craft of mold remediation. Our team of expert 
-              professionals blends state- of - the - art technology with extensive experience to 
-              provide thorough mold removal and prevention services.We treat every project with the 
-              utmost seriousness, regardless of its scale or complexity, and tackle each one with 
-              meticulous attention and dedication.
+               We deploy scalable teams of licensed and insured professionals to conduct thorough cleanouts of bank-owned properties. This includes clearing out all leftover junk, furniture, and appliances, as well as cleaning up both interior and exterior debris. We also offer complete cleanup services for undeveloped land, handling everything from trash removal to tree and yard debris disposal.
               `,
             },
           ],
         },
         {
           id: 2,
-          title: "Why Choose Fix&Frame?",
+          title: "Light Demolition and Cleanup Services for REO Properties",
           data: [
             {
               id: 1,
               text: `
-              Qualified Experts: Our technicians hold certifications from top industry organizations, ensuring that your mold issue receives the utmost professional attention.
+              After the initial cleanout, our team can assist with light demolition tasks to avoid the need for multiple contractors. This service accelerates the process, making your property market-ready more quickly. Choosing LoadUp for your REO cleanout and eco-friendly disposal needs ensures a streamlined experience.
             `,
-            },
-            {
-              id: 2,
-              text: `
-                Cutting- edge Technology: We employ advanced equipment and techniques for mold 
-                inspection, elimination, and prevention, ensuring effective and long - lasting
-                outcomes.
-              `,
-            },
-            {
-              id: 3,
-              text: `
-                Tailored Approaches: Each mold situation is distinct.We customize our solutions 
-                to fit your exact requirements, addressing the underlying cause rather than just 
-                the surface issues.
-              `,
             },
           ],
         },
         {
           id: 3,
-          title: "Our Services:",
+          title: "Range of Real Estate-Owned Property Services:",
           data: [
             {
               id: 1,
               text: `
-              Mold Assessment: Our specialists perform thorough assessments to determine the type 
-              and scope of mold presence in your premises.
+            Every property is unique, and so are our cleanout solutions. Whether it’s a residential, corporate building, or undeveloped land, our REO property services are tailored to meet all your cleanup needs. Your account manager is always on hand to provide upfront quotes, schedule services, and address any questions.
             `,
-            },
-            {
-              id: 2,
-              text: `
-              Mold Eradication: Employing state-of-the-art methods, we securely and efficiently
-              eliminate mold from your property, preventing its recurrence.
-            `,
-            },
-            {
-              id: 3,
-              text: `
-              Preventive Actions: We enact preventive measures to deter mold reappearance,
-              safeguarding your residence and well-being for the future.
-              `,
-            },
+            }
           ],
         },
         {
           id: 4,
-          title: "Health and Safety:",
+          title: "   Property Clean Outs:",
           data: [
             {
               id: 1,
               text: `
-               At Fix&Frame, your health is our foremost concern.Mold can lead to various health 
-               concerns, such as allergies and respiratory issues.We adhere to strict safety 
-               measures to safeguard both our crew and your household throughout the remediation 
-               procedure.Our dedication to your well- being is steadfast.
+               Office Clean Outs,
+Eviction Clean Outs,
+Apartment Clean Outs,
+Foreclosure Clean Outs,
+Renovation Clean Outs,
+Storage Unit Clean Outs,
             `,
             },
           ],
         },
         {
           id: 5,
-          title: "Service Areas:",
+          title: "Property Clean Up Services:",
           data: [
             {
               id: 1,
               text: `
-               Fix&Frame proudly serves homeowners and businesses throughout Chicago and the
-               surrounding regions. We're only a phone call away, prepared to promptly address
-               your mold-related inquiries.
+              Trash Removal Waste Removal,
+Debris Removal,
+Garbage Removal,
+Construction Site Clean Ups,
+Renovation & Remodel Clean Ups
             `,
             },
           ],
         },
-        {
-          id: 6,
-          title: "Contact Us:",
-          data: [
-            {
-              id: 1,
-              text: `
-               Don't allow mold to jeopardize your home or health any further. Reach out to Fix&Frame 
-                Inc today to arrange an inspection or discuss your mold removal requirements.
-              Our helpful team is ready to help you
-            `,
-            },
-            {
-              id: 2,
-              text: `
-               If you think only untidy homes are susceptible to mold, you might be mistaken.
-               Whether it’s your residence or workplace, mold can thrive anywhere. What’s more
-               alarming? Often, homeowners are unaware of mold presence in their homes.
-            `,
-            },
-            {
-              id: 3,
-              text: `
-              Unchecked mold growth can pose a health hazard. Left untreated, mold can rapidly
-              spread throughout your property, causing structural damage and impacting its value.
-            `,
-            },
-            {
-              id: 4,
-              text: `
-              The longer mold is allowed to flourish, the more harm it can cause.
-              `,
-            },
-            {
-              id: 5,
-              text: `
-              To prevent serious health risks, mold growth must be addressed promptly.
-              `,
-            },
-            {
-              id: 6,
-              text: `
-              We offer mold inspection and remediation services to ensure your home is safe for you
-              and your family. Our mold inspectors meticulously examine your indoor spaces. We
-              utilize advanced technology to detect and assess mold, as well as identify the
-              underlying conditions promoting its growth. Additionally, we provide mold remediation
-              services to restore your home to a healthy environment.
-            `,
-            },
-          ],
-        },
+
       ],
     },
     {
@@ -810,11 +727,7 @@ const ServicesView = () => {
             {
               id: 1,
               text: `
-              At Fix&Frame Inc., we've perfected the craft of mold remediation. Our team of expert
-              professionals blends state-of-the-art technology with extensive experience to provide
-              thorough mold removal and prevention services. We treat every project with the utmost
-              seriousness, regardless of its scale or complexity, and tackle each one with
-              meticulous attention and dedication.
+               At Fix&Frame, we are dedicated to providing comprehensive inspection services and meticulous lawn maintenance solutions that ensure your property not only looks its best but also remains structurally sound and well-maintained throughout the year. With years of industry experience and a commitment to excellence, our team of professionals is here to meet all your property care needs.
             `,
             },
           ],
@@ -826,34 +739,25 @@ const ServicesView = () => {
             {
               id: 1,
               text: `
-            Experienced Team:Our team comprises certified inspectors and skilled lawn care
-            specialists who bring extensive knowledge and expertise to every project. We stay
-            updated with the latest industry standards and techniques to deliver superior results.
+            Experienced Team: Our team comprises certified inspectors and skilled lawn care specialists who bring extensive knowledge and expertise to every project. We stay updated with the latest industry standards and techniques to deliver superior results.
             `,
             },
             {
               id: 2,
               text: `
-            Comprehensive Services: We offer a wide range of services tailored to meet the unique
-            needs of homeowners and property managers.
+            Comprehensive Services: We offer a wide range of services tailored to meet the unique needs of homeowners and property managers.
             `,
             },
             {
               id: 3,
               text: `
-              Quality Assurance: We prioritize quality in every aspect of our work. Our inspection
-              reports are meticulous and comprehensive, providing you with a clear understanding of
-              your property's condition. Similarly, our lawn care services are performed with
-              attention to detail to ensure optimal results.
+              Quality Assurance: We prioritize quality in every aspect of our work. Our inspection reports are meticulous and comprehensive, providing you with a clear understanding of your property's condition. Similarly, our lawn care services are performed with attention to detail to ensure optimal results.
             `,
             },
             {
               id: 4,
               text: `
-              Customer-Centric Approach: Your satisfaction is our top priority. We work closely with
-              you to understand your goals and preferences, tailoring our services to meet your
-              specific requirements. We believe in open communication, reliability, and delivering
-              services that exceed your expectations.
+              Customer-Centric Approach: Your satisfaction is our top priority. We work closely with you to understand your goals and preferences, tailoring our services to meet your specific requirements. We believe in open communication, reliability, and delivering services that exceed your expectations.
             `,
             },
           ],

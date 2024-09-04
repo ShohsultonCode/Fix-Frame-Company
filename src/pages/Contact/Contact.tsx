@@ -87,7 +87,7 @@ const Contact = () => {
                 <div className="contact__content">
                   <h3 className="contact__content-title">Email us</h3>
                   <span className="contact__content-text">
-                    Fix&Frame@fixframeinvest.com
+                    fix&frame@fixframeinvest.com
                   </span>
                 </div>
               </a>

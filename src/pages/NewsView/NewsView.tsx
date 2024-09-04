@@ -92,14 +92,14 @@ const NewsView = () => {
           data: [
             {
               text: `
-            Whether you're starting a new construction project, refreshing several locations with a new
-            brand identity, or renovating a single site, we oversee your project from start to finish. Our
-            reliable feasibility studies encompass all aspects, and our skilled teams manage every stage of the
-            project. You can rely on top-notch materials, excellent craftsmanship, and efficient management
-            techniques. We address specific challenges collaboratively and consistently achieve the results you
-            anticipate, on schedule and within budget. Few retail construction firms in Illinois can match the
-            extensive expertise we offer at Fix&Frame
-          `,
+               Whether you're starting a new construction project, refreshing several locations with a new
+               brand identity, or renovating a single site, we oversee your project from start to finish.
+               Our reliable feasibility studies encompass all aspects, and our skilled teams manage every
+               stage of the project. You can rely on top-notch materials, excellent craftsmanship, and
+               efficient management techniques. We address specific challenges collaboratively and
+               consistently achieve the results you anticipate, on schedule and within budget. Few
+               retail construction firms in Illinois can match the extensive expertise we offer at Fix&Frame.
+              `,
             },
           ],
         },
@@ -155,10 +155,10 @@ const NewsView = () => {
       ],
       title: "Landscape and Snow Removal",
       text: `
-        Creating an inviting ambiance and an captivating design can continually draw devoted customers to
-        your business. From the outward appearance to the internal intricacies, every facet of a retail
-        establishment mirrors your brand and plays a crucial role in advancing your business growth.
-        Understanding the significance of your business in the future is essential for retail development...
+        Creating an inviting ambiance and a captivating design can continually draw devoted customers
+        to your business. From the outward appearance to the internal intricacies, every facet of a
+        retail establishment mirrors your brand and plays a crucial role in advancing your business growth.
+        Understanding the significance of your business in the future is essential for retail development.
       `,
     },
     {
@@ -183,10 +183,10 @@ const NewsView = () => {
       ],
       title: "How To Clean Up Mold Properly",
       text: `
-        Mold contamination is a troublesome issue that damages your home and jeopardizes your
-        health. If left unaddressed, it can propagate and escalate, particularly for individuals
-        with respiratory ailments. Therefore, it's imperative to rid your house of mold
-        promptly.  Here are the steps to follow for proper cleaning up of mold:
+        Mold contamination is a troublesome issue that damages your home and jeopardizes your health. If left
+        unaddressed, it can propagate and escalate, particularly for individuals with respiratory ailments.
+        Therefore, it's imperative to rid your house of mold promptly.  Here are the steps to follow for
+        proper cleaning up of mold:
       `,
       listData: [
         {
@@ -390,7 +390,9 @@ const NewsView = () => {
       ],
       title: "Building Your Dream Bathroom",
       text: `
-The bathroom is one of the most used rooms in your home. It's a place where you can relax after a long day. Updating your bathroom or adding a new one is a great way to increase the value of your home. The Fix&Frame team can help you plan, design, and coordinate the perfect bathroom remodel that fits your budget.
+        Your bathroom is the one place where you start your morning as well as freshen up at the end of a long tiring
+        day. While designing your bathroom, it should be functional and look fabulous. So, here are a few tips
+        for you to build your dream bathroom: 
       `,
       listData: [
         {
@@ -465,7 +467,9 @@ The bathroom is one of the most used rooms in your home. It's a place where you 
       ],
       title: "Landscape and Snow Removal",
       text: `
-       The bathroom is one of the most used rooms in your home. It's a place where you can relax after a long day. Updating your bathroom or adding a new one is a great way to increase the value of your home. The Fix&Frame team can help you plan, design, and coordinate the perfect bathroom remodel that fits your budget.
+        Your bathroom is the one place where you start your morning as well as freshen up at the end of a long tiring
+        day. While designing your bathroom, it should be functional and look fabulous. So, here are a few tips for you
+        to build your dream bathroom: 
       `,
       listData: [
         {
@@ -473,13 +477,13 @@ The bathroom is one of the most used rooms in your home. It's a place where you 
           data: [
             {
               text: `
-                Whether you're starting from scratch, rebranding several sites, or renovating a single location, we
-                manage your project from initial planning to final completion. Our reliable feasibility studies
-                address every aspect, and our skilled teams oversee every phase of the project. You can rely on
-                top-quality materials, exceptional craftsmanship, and efficient management strategies. We address
-                unique challenges with a collaborative approach and consistently deliver the results you expect on time
-                and within budget. Few retail construction companies in Illinois can match the comprehensive expertise
-                we offer at Fix&Frame.
+                Whether you're starting a new construction project, refreshing several locations with a new brand
+                identity, or renovating a single site, we oversee your project from start to finish. Our reliable
+                feasibility studies encompass all aspects, and our skilled teams manage every stage of the project.
+                You can rely on top-notch materials, excellent craftsmanship, and efficient management techniques.
+                We address specific challenges collaboratively and consistently achieve the results you anticipate,
+                on schedule and within budget. Few retail construction firms in Illinois can match the extensive
+                expertise we offer at Fix&Frame.
               `,
             },
           ],

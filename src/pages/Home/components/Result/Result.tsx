@@ -5,7 +5,7 @@ import {
   ResultImage4,
 } from "assets/images/svg";
 import "./style.scss";
-// import { ResultImage } from "assets/images/png";
+import { ResultImage } from "assets/images/png";
 
 const Result = () => {
   return (
@@ -96,7 +96,14 @@ const Result = () => {
               </p>
             </li>
           </ul>
- 
+          <img
+            width={400}
+            height={455}
+            loading="lazy"
+            src={ResultImage}
+            alt="Fix&Frame phone"
+            className="result__container-image"
+          />
         </div>
       </div>
     </section>

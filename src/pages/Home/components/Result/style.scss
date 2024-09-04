@@ -109,6 +109,10 @@ $input__border-color: #969696;
     &-image {
       max-width: 455px;
       object-fit: cover;
+
+      @include xl {
+        display: none;
+      }
     }
   }
 

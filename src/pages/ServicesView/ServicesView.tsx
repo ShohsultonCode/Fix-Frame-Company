@@ -234,7 +234,7 @@ const ServicesView = () => {
       listData: [
         {
           id: 1,
-          title: "Our Expertise:",
+          title: "Securing Services:",
           data: [
             {
               id: 1,

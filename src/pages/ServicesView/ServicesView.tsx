@@ -816,11 +816,11 @@ Lawn Maintenance: Regular care plans customized to your lawn's specific needs an
                             {el.data.length > 0 &&
                               el.data.map((el: dataTypes) => {
                                 return (
-                                  <li className="services-view__answer">
+                                  <h1 className="services-view__answer">
                                     <p className="services-view__answer-text">
                                       {el.text}
                                     </p>
-                                  </li>
+                                  </h1>
                                 );
                               })}
                           </ul>

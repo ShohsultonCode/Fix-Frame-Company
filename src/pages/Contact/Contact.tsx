@@ -14,7 +14,6 @@ const Contact = () => {
       behavior: "smooth",
     });
   }, []);
-
   const backgroundColor = "rgba(0, 20, 96, 0.700)";
 
   const backgroundStyle = {
@@ -58,7 +57,6 @@ const Contact = () => {
                     />
                   </svg>
                 </span>
-
                 <div className="contact__content">
                   <h3 className="contact__content-title">Head office</h3>
                   <span className="contact__content-text">
@@ -83,7 +81,6 @@ const Contact = () => {
                     />
                   </svg>
                 </span>
-
                 <div className="contact__content">
                   <h3 className="contact__content-title">Email us</h3>
                   <span className="contact__content-text">

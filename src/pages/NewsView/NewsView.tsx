@@ -88,64 +88,77 @@ const NewsView = () => {
       listData: [
         {
           id: 1,
-          title: "Landscaping Services",
+          title: "Experienced Residential Construction",
           data: [
             {
               text: `
-      Landscaping services involve the design, installation, and maintenance of outdoor spaces
- to enhance the aesthetics and functionality of a property.
-
+               Whether you're starting a new construction project, refreshing several locations with a new
+               brand identity, or renovating a single site, we oversee your project from start to finish.
+               Our reliable feasibility studies encompass all aspects, and our skilled teams manage every
+               stage of the project. You can rely on top-notch materials, excellent craftsmanship, and
+               efficient management techniques. We address specific challenges collaboratively and
+               consistently achieve the results you anticipate, on schedule and within budget. Few
+               retail construction firms in Illinois can match the extensive expertise we offer at Fix&Frame.
               `,
             },
           ],
         },
         {
           id: 2,
-          title: "Common landscaping services include:",
+          title: "Focused Building Solutions",
           data: [
             {
-            text: `
-            -Lawn Care: Mowing, fertilizing, aeration, and weed control to keep lawns healthy and attractive.
-            -Garden Design and Installation: Creating and planting gardens with flowers, shrubs, and trees.
-            -Hardscaping: Installing patios, walkways, retaining walls, and other non-plant elements.
-            -Irrigation Systems: Designing and installing systems to ensure plants receive adequate water.
-            -Seasonal Clean-Up: Removing leaves, debris, and preparing gardens for different seasons.
-            -Tree and Shrub Care: Pruning, trimming, and treating trees and shrubs to promote growth and health.
+              text: `
+            Considering investing in a mature residential property? As Illinois’s foremost residential
+            remodeling contractor, we've crafted cost-effective renovation tactics for current interiors and
+            exteriors. Do your blueprints call for adherence to stringent customer standards? We've collaborated
+            closely with homeowners and their proxies statewide. If you're commencing a new property development,
+            our crews oversee the endeavor from site preparation to final permitting. We tailor our construction
+            solutions to accommodate your endeavors, whether single-family units, tenant enhancements, or routine
+            maintenance.
           `,
             },
           ],
         },
         {
           id: 3,
-          title: "Snow Removal Services",
+          title: "Comprehensive Management Techniques",
           data: [
             {
               text: `
-            Snow removal services ensure safe and accessible pathways during winter months.
-These services include:
+            Effectively managing both extensive and minor construction projects in Illinois demands the meticulous
+            oversight of a seasoned contractor. Our comprehensive construction management services offer the
+            framework for orchestrating every stage of new construction and residential remodeling. We manage site
+            preparation, establish dependable timetables, and oversee subcontractors. Project financial management,
+            safety protocols, and quality assurance are handled meticulously, and our robust statewide industry
+            connections guarantee access to top-notch materials at competitive prices. Our holistic management strategy
+            ensures reliable project progression while maintaining essential speed to market.
           `,
             },
           ],
         },
         {
           id: 4,
-          title: "",
+          title: "Successful Partnership Strategies",
           data: [
             {
-              text: `-Snow Plowing: Clearing snow from driveways, parking lots, and roads.
--Snow Blowing: Using snow blowers to remove snow from walkways, sidewalks, and smaller areas.
--Shoveling: Manually clearing snow from steps, porches, and areas not accessible by machinery.
--De-Icing: Applying salt or other de-icing agents to prevent ice formation and ensure surfaces are safe to walk or drive on.
--Snow Hauling: Transporting excess snow to designated areas when it accumulates to an obstructive level.`,
+              text: `Effectively managing both extensive and minor construction projects in Illinois demands the 
+          meticulous oversight of a seasoned contractor. Our comprehensive construction management services offer the
+          framework for orchestrating every stage of new construction and residential remodeling. We manage site
+          preparation, establish dependable timetables, and oversee subcontractors. Project financial management,
+          safety protocols, and quality assurance are handled meticulously, and our robust statewide industry
+          connections guarantee access to top-notch materials at competitive prices. Our holistic management strategy
+          ensures reliable project progression while maintaining essential speed to market.`,
             },
           ],
         },
       ],
-      title: "",
+      title: "Landscape and Snow Removal",
       text: `
-          Both landscaping and snow removal services play crucial roles in maintaining
- the beauty and safety of residential and commercial properties year-round.
-
+        Creating an inviting ambiance and a captivating design can continually draw devoted customers
+        to your business. From the outward appearance to the internal intricacies, every facet of a
+        retail establishment mirrors your brand and plays a crucial role in advancing your business growth.
+        Understanding the significance of your business in the future is essential for retail development.
       `,
     },
     {
@@ -464,8 +477,13 @@ These services include:
           data: [
             {
               text: `
-           Whether you're starting a new construction project, refreshing several locations with a new brand identity, or renovating a single site, we oversee your project from start to finish. Our reliable feasibility studies encompass all aspects, and our skilled teams manage every stage of the project. You can rely on top-notch materials, excellent craftsmanship, and efficient management techniques. We address specific challenges collaboratively and consistently achieve the results you anticipate, on schedule and within budget. Few retail construction firms in Illinois can match the extensive expertise we offer at Fix&Frame.
-
+                Whether you're starting a new construction project, refreshing several locations with a new brand
+                identity, or renovating a single site, we oversee your project from start to finish. Our reliable
+                feasibility studies encompass all aspects, and our skilled teams manage every stage of the project.
+                You can rely on top-notch materials, excellent craftsmanship, and efficient management techniques.
+                We address specific challenges collaboratively and consistently achieve the results you anticipate,
+                on schedule and within budget. Few retail construction firms in Illinois can match the extensive
+                expertise we offer at Fix&Frame.
               `,
             },
           ],

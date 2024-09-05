@@ -398,11 +398,13 @@ const NewsView = () => {
         {
           id: 1,
           title: `
-          The bathroom is one of the most used rooms in your home where you can relax and unwind after a long day.
+                  `,
+          data: [
+            {
+              text:`The bathroom is one of the most used rooms in your home where you can relax and unwind after a long day.
           Updating this space or adding a new bathroom is one of the best ways to add value to your home.  
           Team can help you plan, design, and coordinate the perfect bathroom remodel that fits in your budget.
-        `,
-          data: [
+`},
             {
               text: `
                 While we understand that renovating your bathroom can be thrilling, it can also be daunting.

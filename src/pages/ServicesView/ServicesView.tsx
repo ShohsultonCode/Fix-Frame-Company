@@ -660,41 +660,7 @@ const ServicesView = () => {
             `,
             }
           ],
-        },
-        {
-          id: 4,
-          title: "   Property Clean Outs:",
-          data: [
-            {
-              id: 1,
-              text: `
-               Office Clean Outs,
-Eviction Clean Outs,
-Apartment Clean Outs,
-Foreclosure Clean Outs,
-Renovation Clean Outs,
-Storage Unit Clean Outs,
-            `,
-            },
-          ],
-        },
-        {
-          id: 5,
-          title: "Property Clean Up Services:",
-          data: [
-            {
-              id: 1,
-              text: `
-              Trash Removal Waste Removal,
-Debris Removal,
-Garbage Removal,
-Construction Site Clean Ups,
-Renovation & Remodel Clean Ups
-            `,
-            },
-          ],
-        },
-
+        }
       ],
     },
     {

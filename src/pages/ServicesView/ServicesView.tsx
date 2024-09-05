@@ -239,7 +239,7 @@ const ServicesView = () => {
             {
               id: 1,
               text: `
-              Securing Services: Ensuring the safety and security of your property is our top 
+              Ensuring the safety and security of your property is our top 
               priority. Our comprehensive Securing services nclude: Property Lockdown: We secure all 
               entry points, including doors, windows, and gates, to prevent unauthorized access and 
               ensure your property is safe.

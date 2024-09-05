@@ -111,7 +111,7 @@ const Contact = () => {
 
                 <div className="contact__content">
                   <h3 className="contact__content-title">Call us</h3>
-                  <span className="contact__content-text">999556651</span>
+                  <span className="contact__content-text">+1 (224) 355-6417</span>
                 </div>
               </a>
             </li>

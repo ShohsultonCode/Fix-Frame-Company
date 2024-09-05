@@ -72,9 +72,7 @@ const Footer = () => {
                   />
                 </svg>
 
-                <span className="footer__contact-text">
-                  fixframe@fixframeinvest.coms
-                </span>
+                <span className="footer__contact-text">fixframe@fixframeinvest.com</span>
               </a>
             </li>
           </ul>

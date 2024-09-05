@@ -727,14 +727,14 @@ Renovation & Remodel Clean Ups
             {
               id: 1,
               text: `
-               At Fix&Frame, we are dedicated to providing comprehensive inspection services and meticulous lawn maintenance solutions that ensure your property not only looks its best but also remains structurally sound and well-maintained throughout the year. With years of industry experience and a commitment to excellence, our team of professionals is here to meet all your property care needs.
+                   At Fix&Frame, we are dedicated to providing comprehensive inspection services and meticulous lawn maintenance solutions that ensure your property not only looks its best but also remains structurally sound and well-maintained throughout the year. With years of industry experience and a commitment to excellence, our team of professionals is here to meet all your property care needs.
             `,
             },
           ],
         },
         {
           id: 2,
-          title: "Why Choose Fix&Frame?",
+          title: "Why Choose Us:",
           data: [
             {
               id: 1,
@@ -760,6 +760,43 @@ Renovation & Remodel Clean Ups
               Customer-Centric Approach: Your satisfaction is our top priority. We work closely with you to understand your goals and preferences, tailoring our services to meet your specific requirements. We believe in open communication, reliability, and delivering services that exceed your expectations.
             `,
             },
+          ],
+        },
+        {
+          id: 3,
+          title: "Our Services:",
+          data: [
+            {
+              id: 1,
+              text: `
+          Property Inspections: Comprehensive evaluations conducted by experienced inspectors, focusing on safety, maintenance needs, and compliance with regulations. We provide detailed reports and recommendations to help you make informed decisions.
+            `,
+            },
+            {
+              id: 2,
+              text: `
+
+Lawn Maintenance: Regular care plans customized to your lawn's specific needs and seasonal requirements. Services include regular mowing, trimming, edging, fertilization, weed management, and treatments to promote healthy growth and lush greenery.
+            `,
+            },
+            {
+              id: 3,
+              text: `
+              Quality Assurance: We prioritize quality in every aspect of our work. Our inspection reports are meticulous and comprehensive, providing you with a clear understanding of your property's condition. Similarly, our lawn care services are performed with attention to detail to ensure optimal results.
+            `,
+            }
+          ],
+        },
+        {
+          id: 4,
+          title: "Quality and Satisfaction:",
+          data: [
+            {
+              id: 1,
+              text: `
+          At Fix&Frame, we are committed to delivering exceptional service and superior results in inspection services and lawn maintenance. Whether you're looking to enhance curb appeal, maintain property value, or ensure a safe and inviting outdoor environment, you can trust us to provide reliable, professional, and personalized care.
+            `,
+            }
           ],
         },
       ],

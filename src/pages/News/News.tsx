@@ -77,10 +77,9 @@ const News = () => {
           image: newsHouseImage4,
         },
       ],
-      title: "Landscape and Snow Removal",
+      title: "Transforming Spaces: Experts in Retail and Residential Construction Services bу Fix&Frame :",
       text: `
-            Creating an inviting ambiance and a captivating design can continually draw devoted customers to your business. From the outward appearance to the internal intricacies, every facet of a retail establishment mirrors your brand and plays a crucial role in advancing your business growth. Understanding the significance of your business in the future is essential for retail development.
-
+                  Creating an inviting ambiance and a captivating design can continually draw devoted customers to your business. From the outward appearance to the internal intricacies, every facet of a retail establishment mirrors your brand and plays a crucial role in advancing your business growth. Understanding the significance of your business in the future is essential for retail development.
       `,
     },
     {

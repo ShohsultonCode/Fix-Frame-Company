@@ -161,31 +161,31 @@ const News = () => {
     The bathroom is one of the most used rooms in your home. It's a place where you can relax after a long day. Updating your bathroom or adding a new one is a great way to increase the value of your home. The Fix&Frame team can help you plan, design, and coordinate the perfect bathroom remodel that fits your budget.
       `,
     },
-    // {
-    //   id: 5,
-    //   images: [
-    //     {
-    //       id: 1,
-    //       image: newsHouseImage16,
-    //     },
-    //     {
-    //       id: 2,
-    //       image: newsHouseImage17,
-    //     },
-    //     {
-    //       id: 3,
-    //       image: newsHouseImage18,
-    //     },
-    //     {
-    //       id: 4,
-    //       image: newsHouseImage19,
-    //     },
-    //   ],
-    //   title: "Landscape and Snow Removal",
-    //   text: `
-    //     Welcome to Fix&Frame , your trusted partner for all your landscaping and snow removal needs. We believe that your outdoor spaces deserve the same attention to detail and care as your indoor spaces. Whether it’s creating a lush, vibrant landscape or ensuring safe and snow-free pathways during winter, Ninja Group Inc is here to make your outdoor dreams a reality.
-    //   `,
-    // },
+    {
+      id: 5,
+      images: [
+        {
+          id: 1,
+          image: newsHouseImage16,
+        },
+        {
+          id: 2,
+          image: newsHouseImage17,
+        },
+        {
+          id: 3,
+          image: newsHouseImage18,
+        },
+        {
+          id: 4,
+          image: newsHouseImage19,
+        },
+      ],
+      title: "Landscape and Snow Removalllll",
+      text: `
+        Welcome to Fix&Frame , your trusted partner for all your landscaping and snow removal needs. We believe that your outdoor spaces deserve the same attention to detail and care as your indoor spaces. Whether it’s creating a lush, vibrant landscape or ensuring safe and snow-free pathways during winter, Ninja Group Inc is here to make your outdoor dreams a reality.
+      `,
+    },
   ];
 
   const arrowLeftBtnRef = useRef<HTMLButtonElement | null>(null);

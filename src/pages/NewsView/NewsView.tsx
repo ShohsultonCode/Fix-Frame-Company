@@ -278,7 +278,7 @@ const NewsView = () => {
           image: newsHouseImage11,
         },
       ],
-      title: "Landscape and Snow Removalsl",
+      title: "Landscape and Snow Removal",
       text: `
       Welcome to Fix&Frame , your trusted partner for all your landscaping and snow removal needs. We believe that your outdoor spaces deserve the same attention to detail and care as your indoor spaces. Whether it’s creating a lush, vibrant landscape or ensuring safe and snow-free pathways during winter, Ninja Group Inc is here to make your outdoor dreams a reality.
       `,

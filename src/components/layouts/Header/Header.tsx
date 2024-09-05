@@ -27,7 +27,7 @@ const Header = () => {
                   />
                 </svg>
                 <span className="site-top__contact-text">
-                  1715 East Roosevelt Road,Wheaton, IL 60187 адрес
+                  1715 East Roosevelt Road,Wheaton, IL 60187
                 </span>
               </a>
             </li>

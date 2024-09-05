@@ -319,7 +319,7 @@ const ServicesView = () => {
       id: 6,
       title: "Repairs and Damages",
       text: `
-       At Fix&Frame, we offer thorough and efficient property clean-out services to ensure your space is left spotless and ready for its next use. Whether you're dealing with a foreclosure, preparing a property for sale, or just need a deep clean, our team provides top-tier services tailored to your specific needs. We handle everything from debris removal and deep cleaning to junk hauling and sanitization. Trust us to leave your property in pristine condition.
+      In property preservation, repairs include routine maintenance, minor fixes (e.g., plumbing, windows), and major structural work (e.g., roofs, foundations). Damages often result from natural elements like weather, as well as vandalism and neglect, which can lead to further deterioration if not addressed promptly.
       `,
       images: [
         {

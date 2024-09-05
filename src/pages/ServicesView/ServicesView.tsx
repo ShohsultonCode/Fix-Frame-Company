@@ -271,10 +271,6 @@ const ServicesView = () => {
         },
 
 
-
-
-
-
         {
           id: 2,
           title: "Boarding Services:",

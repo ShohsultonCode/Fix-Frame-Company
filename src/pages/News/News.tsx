@@ -79,10 +79,8 @@ const News = () => {
       ],
       title: "Landscape and Snow Removal",
       text: `
-        Creating an inviting ambiance and a captivating design can continually draw devoted customers
-        to your business. From the outward appearance to the internal intricacies, every facet of a
-        retail establishment mirrors your brand and plays a crucial role in advancing your business growth.
-        Understanding the significance of your business in the future is essential for retail development.
+            Creating an inviting ambiance and a captivating design can continually draw devoted customers to your business. From the outward appearance to the internal intricacies, every facet of a retail establishment mirrors your brand and plays a crucial role in advancing your business growth. Understanding the significance of your business in the future is essential for retail development.
+
       `,
     },
     {
@@ -107,10 +105,7 @@ const News = () => {
       ],
       title: "How To Clean Up Mold Properly",
       text: `
-        Mold contamination is a troublesome issue that damages your home and jeopardizes your health. If left
-        unaddressed, it can propagate and escalate, particularly for individuals with respiratory ailments.
-        Therefore, it's imperative to rid your house of mold promptly.  Here are the steps to follow for
-        proper cleaning up of mold:
+           Mold contamination is a troublesome issue that damages your home and jeopardizes your health. If left unaddressed, it can propagate and escalate, particularly for individuals with respiratory ailments. Therefore, it's imperative to rid your house of mold promptly.  Here are the steps to follow for proper cleaning up of mold:
       `,
     },
     {
@@ -164,9 +159,7 @@ const News = () => {
       ],
       title: "Building Your Dream Bathroom",
       text: `
-        Your bathroom is the one place where you start your morning as well as freshen up at the end of a long tiring
-        day. While designing your bathroom, it should be functional and look fabulous. So, here are a few tips
-        for you to build your dream bathroom:
+    The bathroom is one of the most used rooms in your home. It's a place where you can relax after a long day. Updating your bathroom or adding a new one is a great way to increase the value of your home. The Fix&Frame team can help you plan, design, and coordinate the perfect bathroom remodel that fits your budget.
       `,
     },
     {
@@ -191,9 +184,7 @@ const News = () => {
       ],
       title: "Landscape and Snow Removal",
       text: `
-        Your bathroom is the one place where you start your morning as well as freshen up at the end of a long tiring
-        day. While designing your bathroom, it should be functional and look fabulous. So, here are a few tips for you
-        to build your dream bathroom: 
+        Welcome to Fix&Frame , your trusted partner for all your landscaping and snow removal needs. We believe that your outdoor spaces deserve the same attention to detail and care as your indoor spaces. Whether it’s creating a lush, vibrant landscape or ensuring safe and snow-free pathways during winter, Ninja Group Inc is here to make your outdoor dreams a reality.
       `,
     },
   ];

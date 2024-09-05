@@ -239,15 +239,6 @@ const ServicesView = () => {
             {
               id: 1,
               text: `
-              Ensuring the safety and security of your property is our top 
-              priority. Our comprehensive Securing services nclude: Property Lockdown: We secure all 
-              entry points, including doors, windows, and gates, to prevent unauthorized access and 
-              ensure your property is safe.
-            `,
-            },
-            {
-              id: 2,
-              text: `
           Property Lockdown: We secure all entry points, including doors, windows, and gates, to prevent unauthorized access and ensure your property is safe.
               `,
             },
@@ -290,42 +281,36 @@ const ServicesView = () => {
           data: [
             {
               id: 1,
-              text: `  
-       Our Boarding services are tailored to provide efficient and effective property management solutions. We ensure your property is well-maintained and ready for new tenants with the following services:
-              `,
-            },
-            {
-              id: 2,
               text: `
             Tenant Placement: We carefully screen potential tenants to ensure they meet your criteria, including background checks and reference verification. Our goal is to find reliable and responsible tenants for your property
               `,
             },
             {
-              id: 3,
+              id: 2,
               text: `
               Move-In/Move-Out Assistance: We handle all aspects of the move-in and move-out process, including coordinating schedules, assisting with logistics, and conducting property inspections to ensure smooth transitions.
               `,
             },
             {
-              id: 4,
+              id: 3,
               text: `
           Property Preparation: Our team prepares your property for new tenants by performing thorough cleaning, minor repairs, and maintenance tasks. We ensure the property is in excellent condition and ready for occupanc.
               `,
             },
             {
-              id: 5,
+              id: 4,
               text: `
               Ongoing Support: We provide ongoing support and maintenance services, including routine inspections, landscaping, and addressing any tenant concerns or maintenance requests promptly.
               `,
             },
             {
-              id: 6,
+              id: 5,
               text: `
        Lease Management: We manage all lease-related tasks, including drafting lease agreements, handling renewals, and managing any necessary legal documentation. Our goal is to ensure a hassle-free leasing experience for both you and your tenants.
               `,
             },
             {
-              id: 7,
+              id: 6,
               text: `
              With our Securing and Boarding services, you can have peace of mind knowing that your property is in capable hands. We are committed to providing top-notch service and ensuring your property is safe, secure, and well-maintained.
               `,

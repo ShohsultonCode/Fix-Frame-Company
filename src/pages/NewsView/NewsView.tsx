@@ -278,7 +278,7 @@ const NewsView = () => {
           image: newsHouseImage11,
         },
       ],
-      title: "Mold Remediation and Inspection Services",
+      title: "Landscape and Snow Removal",
       text: `
         Welcome to Fix&Frame, your reliable ally in mold remediation solutions. At Fix&Frame,
         we recognize the significance of a healthy living environment for you and your family.

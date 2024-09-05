@@ -443,107 +443,107 @@ const NewsView = () => {
         },
       ],
     },
-    // {
-    //   id: 5,
-    //   images: [
-    //     {
-    //       id: 1,
-    //       image: newsHouseImage16,
-    //     },
-    //     {
-    //       id: 2,
-    //       image: newsHouseImage17,
-    //     },
-    //     {
-    //       id: 3,
-    //       image: newsHouseImage18,
-    //     },
-    //     {
-    //       id: 4,
-    //       image: newsHouseImage19,
-    //     },
-    //   ],
-    //   title: "Landscape and Snow Removal",
-    //   text: `
-    //       Welcome to Fix&Frame , your trusted partner for all your landscaping and snow removal needs. We believe that your outdoor spaces deserve the same attention to detail and care as your indoor spaces. Whether it’s creating a lush, vibrant landscape or ensuring safe and snow-free pathways during winter, Ninja Group Inc is here to make your outdoor dreams a reality.
-    //   `,
-    //   listData: [
-    //     {
-    //       id: 1,
-    //       data: [
-    //         {
-    //           text: `
-    //             Whether you're starting a new construction project, refreshing several locations with a new brand
-    //             identity, or renovating a single site, we oversee your project from start to finish. Our reliable
-    //             feasibility studies encompass all aspects, and our skilled teams manage every stage of the project.
-    //             You can rely on top-notch materials, excellent craftsmanship, and efficient management techniques.
-    //             We address specific challenges collaboratively and consistently achieve the results you anticipate,
-    //             on schedule and within budget. Few retail construction firms in Illinois can match the extensive
-    //             expertise we offer at Fix&Frame.
-    //           `,
-    //         },
-    //       ],
-    //       title: "Experienced Residential Construction",
-    //     },
-    //     {
-    //       id: 2,
-    //       title: "Focused Building Solutions",
-    //       data: [
-    //         {
-    //           text: `
-    //             Are you considering investing in an older residential property? As Illinois’s top residential remodeling
-    //             contractor, we’ve created cost-effective renovation strategies for both interiors and exteriors of
-    //             existing homes. Do your plans need to comply with stringent customer guidelines? We have extensive
-    //             experience working closely with homeowners and their representatives throughout the state. If you’re
-    //             starting a new construction project, our teams handle everything from site preparation to final
-    //             permitting.
-    //         `,
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       id: 3,
-    //       title: "Comprehensive Management Techniques",
-    //       data: [
-    //         {
-    //           text: `
-    //             Successfully coordinating large and small construction projects in Illinois requires the
-    //             detailed oversight of an experienced contractor.We manage site preparation, establish reliable
-    //             schedules, and oversee subcontractors. Project accounting, safety planning, and quality assurance are
-    //             all taken care of, and our robust statewide industry network guarantees you the best materials at
-    //             competitive prices. Our comprehensive management approach ensures reliable project development without
-    //             sacrificing crucial speed to market.
-    //         `,
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       id: 4,
-    //       title: "Successful Partnership Strategies",
-    //       data: [
-    //         {
-    //           text: `
-    //             You expect and deserve exceptional customer care and transparent communication from your residential
-    //             construction contractor. At Fix&Frame, we are dedicated to building our partnership with you through
-    //             personal consultations and accurate updates at every stage of the project. We are always available to
-    //             answer your questions, resolve any issues, and develop strategies that meet your approval. With your
-    //             input, we customize our services to ensure success, regardless of your project’s size. You can always
-    //             trust us to respect your time and budget, and we are committed to meeting and exceeding your highest
-    //             professional standards.
-    //         `,
-    //         },
-    //         {
-    //           text: `
-    //             We take pride in our strong reputation as a leading residential contractor in Illinois, and we invite
-    //             you to review our extensive job portfolio. For over ten years, private and corporate clients across
-    //             the state have experienced successful retail construction and remodeling by partnering with Fix&Frame.
-    //             Contact our team today, and let us bring our best to all your future projects.
-    //           `,
-    //         },
-    //       ],
-    //     },
-    //   ],
-    // },
+    {
+      id: 5,
+      images: [
+        {
+          id: 1,
+          image: newsHouseImage16,
+        },
+        {
+          id: 2,
+          image: newsHouseImage17,
+        },
+        {
+          id: 3,
+          image: newsHouseImage18,
+        },
+        {
+          id: 4,
+          image: newsHouseImage19,
+        },
+      ],
+      title: "Landscape and Snow Removal",
+      text: `
+          Welcome to Fix&Frame , your trusted partner for all your landscaping and snow removal needs. We believe that your outdoor spaces deserve the same attention to detail and care as your indoor spaces. Whether it’s creating a lush, vibrant landscape or ensuring safe and snow-free pathways during winter, Ninja Group Inc is here to make your outdoor dreams a reality.
+      `,
+      listData: [
+        {
+          id: 1,
+          data: [
+            {
+              text: `
+                Whether you're starting a new construction project, refreshing several locations with a new brand
+                identity, or renovating a single site, we oversee your project from start to finish. Our reliable
+                feasibility studies encompass all aspects, and our skilled teams manage every stage of the project.
+                You can rely on top-notch materials, excellent craftsmanship, and efficient management techniques.
+                We address specific challenges collaboratively and consistently achieve the results you anticipate,
+                on schedule and within budget. Few retail construction firms in Illinois can match the extensive
+                expertise we offer at Fix&Frame.
+              `,
+            },
+          ],
+          title: "Experienced Residential Construction",
+        },
+        {
+          id: 2,
+          title: "Focused Building Solutions",
+          data: [
+            {
+              text: `
+                Are you considering investing in an older residential property? As Illinois’s top residential remodeling
+                contractor, we’ve created cost-effective renovation strategies for both interiors and exteriors of
+                existing homes. Do your plans need to comply with stringent customer guidelines? We have extensive
+                experience working closely with homeowners and their representatives throughout the state. If you’re
+                starting a new construction project, our teams handle everything from site preparation to final
+                permitting.
+            `,
+            },
+          ],
+        },
+        {
+          id: 3,
+          title: "Comprehensive Management Techniques",
+          data: [
+            {
+              text: `
+                Successfully coordinating large and small construction projects in Illinois requires the
+                detailed oversight of an experienced contractor.We manage site preparation, establish reliable
+                schedules, and oversee subcontractors. Project accounting, safety planning, and quality assurance are
+                all taken care of, and our robust statewide industry network guarantees you the best materials at
+                competitive prices. Our comprehensive management approach ensures reliable project development without
+                sacrificing crucial speed to market.
+            `,
+            },
+          ],
+        },
+        {
+          id: 4,
+          title: "Successful Partnership Strategies",
+          data: [
+            {
+              text: `
+                You expect and deserve exceptional customer care and transparent communication from your residential
+                construction contractor. At Fix&Frame, we are dedicated to building our partnership with you through
+                personal consultations and accurate updates at every stage of the project. We are always available to
+                answer your questions, resolve any issues, and develop strategies that meet your approval. With your
+                input, we customize our services to ensure success, regardless of your project’s size. You can always
+                trust us to respect your time and budget, and we are committed to meeting and exceeding your highest
+                professional standards.
+            `,
+            },
+            {
+              text: `
+                We take pride in our strong reputation as a leading residential contractor in Illinois, and we invite
+                you to review our extensive job portfolio. For over ten years, private and corporate clients across
+                the state have experienced successful retail construction and remodeling by partnering with Fix&Frame.
+                Contact our team today, and let us bring our best to all your future projects.
+              `,
+            },
+          ],
+        },
+      ],
+    },
   ];
 
   const { id } = useParams();

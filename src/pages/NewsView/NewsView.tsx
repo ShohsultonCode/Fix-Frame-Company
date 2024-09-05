@@ -469,9 +469,7 @@ const NewsView = () => {
       ],
       title: "Landscape and Snow Removal",
       text: `
-        Your bathroom is the one place where you start your morning as well as freshen up at the end of a long tiring
-        day. While designing your bathroom, it should be functional and look fabulous. So, here are a few tips for you
-        to build your dream bathroom: 
+          Welcome to Fix&Frame , your trusted partner for all your landscaping and snow removal needs. We believe that your outdoor spaces deserve the same attention to detail and care as your indoor spaces. Whether it’s creating a lush, vibrant landscape or ensuring safe and snow-free pathways during winter, Ninja Group Inc is here to make your outdoor dreams a reality.
       `,
       listData: [
         {

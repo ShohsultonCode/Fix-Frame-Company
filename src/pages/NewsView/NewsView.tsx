@@ -280,11 +280,7 @@ const NewsView = () => {
       ],
       title: "Landscape and Snow Removal",
       text: `
-        Welcome to Fix&Frame, your reliable ally in mold remediation solutions. At Fix&Frame,
-        we recognize the significance of a healthy living environment for you and your family.
-        Mold can pose a quiet danger, lurking in corners and crawlspaces, undermining your
-        home’s structure, and potentially impacting your well-being. We are here to help you
-        regain control and peace of mind.
+      Welcome to Fix&Frame , your trusted partner for all your landscaping and snow removal needs. We believe that your outdoor spaces deserve the same attention to detail and care as your indoor spaces. Whether it’s creating a lush, vibrant landscape or ensuring safe and snow-free pathways during winter, Ninja Group Inc is here to make your outdoor dreams a reality.
       `,
       listData: [
         {

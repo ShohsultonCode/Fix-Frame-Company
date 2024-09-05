@@ -322,12 +322,11 @@ const ServicesView = () => {
 
         {
           id: 2,
-          title: "Securing Services:",
+          title: "Boarding Services:",
           data: [
             {
               id: 1,
-              text: `
-              Boarding Services:
+              text: `  
        Our Boarding services are tailored to provide efficient and effective property management solutions. We ensure your property is well-maintained and ready for new tenants with the following services:
               `,
             },

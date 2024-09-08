@@ -20,10 +20,10 @@ import {
   newsHouseImage13,
   newsHouseImage14,
   newsHouseImage15,
-  // newsHouseImage16,
-  // newsHouseImage17,
-  // newsHouseImage18,
-  // newsHouseImage19,
+  newsHouseImage16,
+  newsHouseImage17,
+  newsHouseImage18,
+  newsHouseImage19,
   newsHouseImage2,
   newsHouseImage3,
   newsHouseImage4,
@@ -112,28 +112,24 @@ const News = () => {
       images: [
         {
           id: 1,
-          image: newsHouseImage9,
+          image: newsHouseImage16,
         },
         {
           id: 2,
-          image: newsHouseImage10,
+          image: newsHouseImage17,
         },
         {
           id: 3,
-          image: newsHouseImage3,
+          image: newsHouseImage18,
         },
         {
           id: 4,
-          image: newsHouseImage11,
+          image: newsHouseImage19,
         },
       ],
-      title: "Mold Remediation and Inspection Services",
+      title: "Landscape and Snow Removal",
       text: `
-        Welcome to Fix&Frame, your reliable ally in mold remediation solutions. At Fix&Frame,
-        we recognize the significance of a healthy living environment for you and your family.
-        Mold can pose a quiet danger, lurking in corners and crawlspaces, undermining your
-        home’s structure, and potentially impacting your well-being. We are here to help you
-        regain control and peace of mind.
+        Welcome to Fix&Frame , your trusted partner for all your landscaping and snow removal needs. We believe that your outdoor spaces deserve the same attention to detail and care as your indoor spaces. Whether it’s creating a lush, vibrant landscape or ensuring safe and snow-free pathways during winter, Fix&Frame Inc is here to make your outdoor dreams a reality.
       `,
     },
     {
@@ -160,32 +156,7 @@ const News = () => {
       text: `
          The bathroom is one of the most used rooms in your home. It's a place where you can relax after a long day. Updating your bathroom or adding a new one is a great way to increase the value of your home. The Fix&Frame team can help you plan, design, and coordinate the perfect bathroom remodel that fits your budget.
       `,
-    },
-    // {
-    //   id: 5,
-    //   images: [
-    //     {
-    //       id: 1,
-    //       image: newsHouseImage16,
-    //     },
-    //     {
-    //       id: 2,
-    //       image: newsHouseImage17,
-    //     },
-    //     {
-    //       id: 3,
-    //       image: newsHouseImage18,
-    //     },
-    //     {
-    //       id: 4,
-    //       image: newsHouseImage19,
-    //     },
-    //   ],
-    //   title: "Landscape and Snow Removal",
-    //   text: `
-    //     Welcome to Fix&Frame , your trusted partner for all your landscaping and snow removal needs. We believe that your outdoor spaces deserve the same attention to detail and care as your indoor spaces. Whether it’s creating a lush, vibrant landscape or ensuring safe and snow-free pathways during winter, Ninja Group Inc is here to make your outdoor dreams a reality.
-    //   `,
-    // },
+    }
   ];
 
   const arrowLeftBtnRef = useRef<HTMLButtonElement | null>(null);

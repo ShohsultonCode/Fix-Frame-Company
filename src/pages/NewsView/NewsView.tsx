@@ -278,85 +278,52 @@ const NewsView = () => {
           image: newsHouseImage11,
         },
       ],
-      title: "Mold Remediation and Inspection Services",
+      title: "Landscape and Snow Removal",
       text: `
-        Welcome to Fix&Frame, your reliable ally in mold remediation solutions. At Fix&Frame,
-        we recognize the significance of a healthy living environment for you and your family.
-        Mold can pose a quiet danger, lurking in corners and crawlspaces, undermining your
-        home’s structure, and potentially impacting your well-being. We are here to help you
-        regain control and peace of mind.
+       Welcome to Fix&Frame , your trusted partner for all your landscaping and snow removal needs. We believe that your outdoor spaces deserve the same attention to detail and care as your indoor spaces. Whether it’s creating a lush, vibrant landscape or ensuring safe and snow-free pathways during winter, Fix&Frame Inc is here to make your outdoor dreams a reality.
       `,
       listData: [
         {
           id: 1,
-          title: "Our Expertise:",
+          title: "Landscaping Services:",
           data: [
             {
-              text: `At FixFrame Inc., we've perfected the craft of mold remediation. Our team of expert professionals blends state-of-the-art technology with extensive experience to provide thorough mold removal and prevention services. We treat every project with the utmost seriousness, regardless of its scale or complexity, and tackle each one with meticulous attention and dedication.`,
+              text: `Landscaping services involve the design, installation, and maintenance 
+              of outdoor spaces to enhance the aesthetics and functionality of a property. `,
             },
           ],
         },
         {
           id: 2,
-          title: "Why Choose FixFrame?",
+          title: "Common landscaping services include:",
           data: [
             {
-              text: `Qualified Experts: Our technicians hold certifications from top industry organizations, ensuring that your mold issue receives the utmost professional attention.`,
+              text: `Lawn Care: Mowing, fertilizing, aeration, and weed control to keep lawns 
+              healthy and attractive.`,
             },
             {
-              text: `Cutting-edge Technology: We employ advanced equipment and techniques for mold inspection, elimination, and prevention, ensuring effective and long-lasting outcomes.`,
+              text: `Garden Design and Installation: Creating and planting gardens with 
+              flowers, shrubs, and trees.`,
             },
             {
-              text: `Tailored Approaches: Each mold situation is distinct. We customize our solutions to fit your exact requirements, addressing the underlying cause rather than just the surface issues.`,
+              text: `Hardscaping: Installing patios, walkways, retaining walls, and other 
+              non-plant elements.`,
+            },
+            {
+              text: `Irrigation Systems: Designing and installing systems to ensure plants 
+              receive adequate water.`,
+            },
+            {
+              text: `Seasonal Clean-Up: Removing leaves, debris, and preparing gardens for 
+              different seasons.`,
+            },
+            {
+              text: `Tree and Shrub Care: Pruning, trimming, and treating trees and shrubs to 
+              promote growth and health.`,
             },
           ],
         },
-        {
-          id: 3,
-          title: "Our Services:",
-          data: [
-            {
-              text: `Mold Assessment: Our specialists perform thorough assessments to determine the type and scope of mold presence in your premises.`,
-            },
-            {
-              text: `Mold Eradication: Employing state-of-the-art methods, we securely and efficiently eliminate mold from your property, preventing its recurrence.`,
-            },
-            {
-              text: `Preventive Actions: We enact preventive measures to deter mold reappearance, safeguarding your residence and well-being for the future.`,
-            },
-          ],
-        },
-        {
-          id: 4,
-          title: "Service Areas:",
-          data: [
-            {
-              text: `FixFrame proudly serves homeowners and businesses throughout Chicago and the surrounding regions. We're only a phone call away, prepared to promptly address your mold-related inquiries.`,
-            }
-          ],
-        },
-        {
-          id: 5,
-          title: "Contact Us:",
-          data: [
-            {
-              text: `Don't allow mold to jeopardize your home or health any further. Reach out to Ninja Group Inc today to arrange an inspection or discuss your mold removal requirements. Our helpful team is ready to help you.`,
-            },
-            {
-              text: `If you think only untidy homes are susceptible to mold, you might be mistaken. Whether it’s your residence or workplace, mold can thrive anywhere. What’s more alarming? Often, homeowners are unaware of mold presence in their homes.`,
-            },
-            {
-              text: `The longer mold is allowed to flourish, the more harm it can cause.`,
-            },
-            {
-              text: `To prevent serious health risks, mold growth must be addressed promptly.`,
-            },
-            {
-              text: `We offer mold inspection and remediation services to ensure your home is safe for you and your family. Our mold inspectors meticulously examine your indoor spaces. We utilize advanced technology to detect and assess mold, as well as identify the underlying conditions promoting its growth. Additionally, we provide mold remediation services to restore your home to a healthy environment.`,
-            }
-          ],
-        },
-      ]
+        ]
     },
 
     {

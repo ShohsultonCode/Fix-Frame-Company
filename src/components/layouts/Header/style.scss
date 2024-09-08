@@ -101,7 +101,7 @@ $site-top__background-color: #001460;
         14px,
         400,
         19.07px,
-        capitalize
+        none
       );
       @include transition(color 0.3s linear);
       @include fontFamily(("Open Sans", sans-serif));

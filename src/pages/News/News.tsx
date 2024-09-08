@@ -14,8 +14,8 @@ import {
 import {
   HeroImage2,
   newsHouseImage1,
-  newsHouseImage10,
-  newsHouseImage11,
+  // newsHouseImage10,
+  // newsHouseImage11,
   newsHouseImage12,
   newsHouseImage13,
   newsHouseImage14,
@@ -31,7 +31,7 @@ import {
   newsHouseImage6,
   newsHouseImage7,
   newsHouseImage8,
-  newsHouseImage9,
+  // newsHouseImage9,
 } from "assets/images/jpg";
 
 const News = () => {

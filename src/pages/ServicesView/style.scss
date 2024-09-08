@@ -233,7 +233,7 @@ $services__second-background-color: rgba(0, 41, 198, 0.71);
       text-align: center;
       margin-bottom: 20px;
       @include fontFamily("Philosopher");
-      @include headingFonts($contact-title-color, 40px, 700, 44.8px, none);
+      @include headingFonts($contact-title-color, 40px, 900, 44.8px, none);
     }
 
     &-text {

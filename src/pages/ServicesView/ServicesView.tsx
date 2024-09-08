@@ -239,8 +239,9 @@ const ServicesView = () => {
             {
               id: 1,
               text: `
-          Property Lockdown: We secure all entry points, including doors, windows, and gates, to prevent unauthorized access and ensure your property is safe.
+              Property Lockdown: We secure all entry points, including doors, windows, and gates, to prevent unauthorized access and ensure your property is safe.
               `,
+            
             },
 
             {
@@ -816,11 +817,11 @@ Lawn Maintenance: Regular care plans customized to your lawn's specific needs an
                             {el.data.length > 0 &&
                               el.data.map((el: dataTypes) => {
                                 return (
-                                  <h1 className="services-view__answer">
+                                  <li className="services-view__answer">
                                     <p className="services-view__answer-text">
                                       {el.text}
                                     </p>
-                                  </h1>
+                                  </li>
                                 );
                               })}
                           </ul>

@@ -278,92 +278,87 @@ const NewsView = () => {
           image: newsHouseImage11,
         },
       ],
-      title: "Landscape and Snow Removal",
+      title: "Mold Remediation and Inspection Services",
       text: `
-      Welcome to Fix&Frame , your trusted partner for all your landscaping and snow removal needs. We believe that your outdoor spaces deserve the same attention to detail and care as your indoor spaces. Whether it’s creating a lush, vibrant landscape or ensuring safe and snow-free pathways during winter, Ninja Group Inc is here to make your outdoor dreams a reality.
+        Welcome to Fix&Frame, your reliable ally in mold remediation solutions. At Fix&Frame,
+        we recognize the significance of a healthy living environment for you and your family.
+        Mold can pose a quiet danger, lurking in corners and crawlspaces, undermining your
+        home’s structure, and potentially impacting your well-being. We are here to help you
+        regain control and peace of mind.
       `,
       listData: [
         {
           id: 1,
-          title: "Landscaping Services:",
+          title: "Our Expertise:",
           data: [
             {
-              text: `Landscaping services involve the design, installation, and maintenance 
-              of outdoor spaces to enhance the aesthetics and functionality of a property. `,
+              text: `At FixFrame Inc., we've perfected the craft of mold remediation. Our team of expert professionals blends state-of-the-art technology with extensive experience to provide thorough mold removal and prevention services. We treat every project with the utmost seriousness, regardless of its scale or complexity, and tackle each one with meticulous attention and dedication.`,
             },
           ],
         },
         {
           id: 2,
-          title: "Common landscaping services include:",
+          title: "Why Choose FixFrame?",
           data: [
             {
-              text: `Lawn Care: Mowing, fertilizing, aeration, and weed control to keep lawns 
-              healthy and attractive.`,
+              text: `Qualified Experts: Our technicians hold certifications from top industry organizations, ensuring that your mold issue receives the utmost professional attention.`,
             },
             {
-              text: `Garden Design and Installation: Creating and planting gardens with 
-              flowers, shrubs, and trees.`,
+              text: `Cutting-edge Technology: We employ advanced equipment and techniques for mold inspection, elimination, and prevention, ensuring effective and long-lasting outcomes.`,
             },
             {
-              text: `Hardscaping: Installing patios, walkways, retaining walls, and other 
-              non-plant elements.`,
-            },
-            {
-              text: `Irrigation Systems: Designing and installing systems to ensure plants 
-              receive adequate water.`,
-            },
-            {
-              text: `Seasonal Clean-Up: Removing leaves, debris, and preparing gardens for 
-              different seasons.`,
-            },
-            {
-              text: `Tree and Shrub Care: Pruning, trimming, and treating trees and shrubs to 
-              promote growth and health.`,
+              text: `Tailored Approaches: Each mold situation is distinct. We customize our solutions to fit your exact requirements, addressing the underlying cause rather than just the surface issues.`,
             },
           ],
         },
         {
           id: 3,
-          title: "Snow Removal Services",
+          title: "Our Services:",
           data: [
             {
-              text: `Snow removal services ensure safe and accessible pathways during winter months.
-              These services include:`,
+              text: `Mold Assessment: Our specialists perform thorough assessments to determine the type and scope of mold presence in your premises.`,
             },
             {
-              text: `
-                Snow Plowing: Clearing snow from driveways, parking lots, and roads.
-              `,
+              text: `Mold Eradication: Employing state-of-the-art methods, we securely and efficiently eliminate mold from your property, preventing its recurrence.`,
             },
             {
-              text: `
-                Snow Blowing: Using snow blowers to remove snow from walkways, sidewalks, and
-                smaller areas.
-              `,
-            },
-            {
-              text: `
-                Shoveling: Manually clearing snow from steps, porches, and areas not
-                accessible by machinery.
-              `,
-            },
-            {
-              text: `
-                De-Icing: Applying salt or other de-icing agents to prevent ice formation and
-                ensure surfaces are safe to walk or drive on.
-              `,
-            },
-            {
-              text: `
-                Snow Hauling: Transporting excess snow to designated areas when it accumulates
-                to an obstructive level.
-              `,
+              text: `Preventive Actions: We enact preventive measures to deter mold reappearance, safeguarding your residence and well-being for the future.`,
             },
           ],
         },
-      ],
+        {
+          id: 4,
+          title: "Service Areas:",
+          data: [
+            {
+              text: `FixFrame proudly serves homeowners and businesses throughout Chicago and the surrounding regions. We're only a phone call away, prepared to promptly address your mold-related inquiries.`,
+            }
+          ],
+        },
+        {
+          id: 5,
+          title: "Contact Us:",
+          data: [
+            {
+              text: `Don't allow mold to jeopardize your home or health any further. Reach out to Ninja Group Inc today to arrange an inspection or discuss your mold removal requirements. Our helpful team is ready to help you.`,
+            },
+            {
+              text: `If you think only untidy homes are susceptible to mold, you might be mistaken. Whether it’s your residence or workplace, mold can thrive anywhere. What’s more alarming? Often, homeowners are unaware of mold presence in their homes.`,
+            },
+            {
+              text: `The longer mold is allowed to flourish, the more harm it can cause.`,
+            },
+            {
+              text: `To prevent serious health risks, mold growth must be addressed promptly.`,
+            },
+            {
+              text: `We offer mold inspection and remediation services to ensure your home is safe for you and your family. Our mold inspectors meticulously examine your indoor spaces. We utilize advanced technology to detect and assess mold, as well as identify the underlying conditions promoting its growth. Additionally, we provide mold remediation services to restore your home to a healthy environment.`,
+            }
+          ],
+        },
+      ]
     },
+
     {
       id: 4,
       images: [
@@ -397,7 +392,7 @@ const NewsView = () => {
                   `,
           data: [
             {
-              text:`The bathroom is one of the most used rooms in your home where you can relax and unwind after a long day.
+              text: `The bathroom is one of the most used rooms in your home where you can relax and unwind after a long day.
           Updating this space or adding a new bathroom is one of the best ways to add value to your home.  
           Team can help you plan, design, and coordinate the perfect bathroom remodel that fits in your budget.
 `},
@@ -443,107 +438,7 @@ const NewsView = () => {
         },
       ],
     },
-    // {
-    //   id: 5,
-    //   images: [
-    //     {
-    //       id: 1,
-    //       image: newsHouseImage16,
-    //     },
-    //     {
-    //       id: 2,
-    //       image: newsHouseImage17,
-    //     },
-    //     {
-    //       id: 3,
-    //       image: newsHouseImage18,
-    //     },
-    //     {
-    //       id: 4,
-    //       image: newsHouseImage19,
-    //     },
-    //   ],
-    //   title: "Landscape and Snow Removal",
-    //   text: `
-    //       Welcome to Fix&Frame , your trusted partner for all your landscaping and snow removal needs. We believe that your outdoor spaces deserve the same attention to detail and care as your indoor spaces. Whether it’s creating a lush, vibrant landscape or ensuring safe and snow-free pathways during winter, Ninja Group Inc is here to make your outdoor dreams a reality.
-    //   `,
-    //   listData: [
-    //     {
-    //       id: 1,
-    //       data: [
-    //         {
-    //           text: `
-    //             Whether you're starting a new construction project, refreshing several locations with a new brand
-    //             identity, or renovating a single site, we oversee your project from start to finish. Our reliable
-    //             feasibility studies encompass all aspects, and our skilled teams manage every stage of the project.
-    //             You can rely on top-notch materials, excellent craftsmanship, and efficient management techniques.
-    //             We address specific challenges collaboratively and consistently achieve the results you anticipate,
-    //             on schedule and within budget. Few retail construction firms in Illinois can match the extensive
-    //             expertise we offer at Fix&Frame.
-    //           `,
-    //         },
-    //       ],
-    //       title: "Experienced Residential Construction",
-    //     },
-    //     {
-    //       id: 2,
-    //       title: "Focused Building Solutions",
-    //       data: [
-    //         {
-    //           text: `
-    //             Are you considering investing in an older residential property? As Illinois’s top residential remodeling
-    //             contractor, we’ve created cost-effective renovation strategies for both interiors and exteriors of
-    //             existing homes. Do your plans need to comply with stringent customer guidelines? We have extensive
-    //             experience working closely with homeowners and their representatives throughout the state. If you’re
-    //             starting a new construction project, our teams handle everything from site preparation to final
-    //             permitting.
-    //         `,
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       id: 3,
-    //       title: "Comprehensive Management Techniques",
-    //       data: [
-    //         {
-    //           text: `
-    //             Successfully coordinating large and small construction projects in Illinois requires the
-    //             detailed oversight of an experienced contractor.We manage site preparation, establish reliable
-    //             schedules, and oversee subcontractors. Project accounting, safety planning, and quality assurance are
-    //             all taken care of, and our robust statewide industry network guarantees you the best materials at
-    //             competitive prices. Our comprehensive management approach ensures reliable project development without
-    //             sacrificing crucial speed to market.
-    //         `,
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       id: 4,
-    //       title: "Successful Partnership Strategies",
-    //       data: [
-    //         {
-    //           text: `
-    //             You expect and deserve exceptional customer care and transparent communication from your residential
-    //             construction contractor. At Fix&Frame, we are dedicated to building our partnership with you through
-    //             personal consultations and accurate updates at every stage of the project. We are always available to
-    //             answer your questions, resolve any issues, and develop strategies that meet your approval. With your
-    //             input, we customize our services to ensure success, regardless of your project’s size. You can always
-    //             trust us to respect your time and budget, and we are committed to meeting and exceeding your highest
-    //             professional standards.
-    //         `,
-    //         },
-    //         {
-    //           text: `
-    //             We take pride in our strong reputation as a leading residential contractor in Illinois, and we invite
-    //             you to review our extensive job portfolio. For over ten years, private and corporate clients across
-    //             the state have experienced successful retail construction and remodeling by partnering with Fix&Frame.
-    //             Contact our team today, and let us bring our best to all your future projects.
-    //           `,
-    //         },
-    //       ],
-    //     },
-    //   ],
-    // },
+
   ];
 
   const { id } = useParams();

@@ -13,9 +13,6 @@ import {
 } from "assets/images/svg";
 import {
   HeroImage2,
-  newsHouseImage1,
-  // newsHouseImage10,
-  // newsHouseImage11,
   newsHouseImage12,
   newsHouseImage13,
   newsHouseImage14,
@@ -24,14 +21,13 @@ import {
   newsHouseImage17,
   newsHouseImage18,
   newsHouseImage19,
-  newsHouseImage2,
-  newsHouseImage3,
-  newsHouseImage4,
+  ServicesImage27,
+  ServicesImage28,
+  ServicesImage29,
   newsHouseImage5,
   newsHouseImage6,
   newsHouseImage7,
   newsHouseImage8,
-  // newsHouseImage9,
 } from "assets/images/jpg";
 
 const News = () => {
@@ -62,22 +58,19 @@ const News = () => {
       images: [
         {
           id: 1,
-          image: newsHouseImage1,
+          image: ServicesImage27,
         },
         {
           id: 2,
-          image: newsHouseImage2,
+          image: ServicesImage28,
         },
         {
           id: 3,
-          image: newsHouseImage3,
-        },
-        {
-          id: 4,
-          image: newsHouseImage4,
+          image: ServicesImage29,
         },
       ],
-      title: "Transforming Spaces: Experts in Retail and Residential Construction Services bу Fix&Frame",
+      title:
+        "Transforming Spaces: Experts in Retail and Residential Construction Services bу Fix&Frame",
       text: `
         Creating an inviting ambiance and a captivating design can continually draw devoted customers to your business. From the outward appearance to the internal intricacies, every facet of a retail establishment mirrors your brand and plays a crucial role in advancing your business growth. Understanding the significance of your business in the future is essential for retail development.
       `,
@@ -156,7 +149,7 @@ const News = () => {
       text: `
          The bathroom is one of the most used rooms in your home. It's a place where you can relax after a long day. Updating your bathroom or adding a new one is a great way to increase the value of your home. The Fix&Frame team can help you plan, design, and coordinate the perfect bathroom remodel that fits your budget.
       `,
-    }
+    },
   ];
 
   const arrowLeftBtnRef = useRef<HTMLButtonElement | null>(null);

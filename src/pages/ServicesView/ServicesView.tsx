@@ -6,9 +6,31 @@ import {
   ContactImage,
   HeroImage1,
   newsHouseImage1,
+  newsHouseImage11,
+  newsHouseImage12,
+  newsHouseImage13,
+  newsHouseImage14,
+  newsHouseImage15,
+  newsHouseImage16,
+  newsHouseImage17,
+  newsHouseImage18,
+  newsHouseImage19,
   newsHouseImage2,
   newsHouseImage3,
   newsHouseImage4,
+  ServicesImage10,
+  ServicesImage18,
+  ServicesImage19,
+  ServicesImage20,
+  ServicesImage21,
+  ServicesImage22,
+  ServicesImage23,
+  ServicesImage24,
+  ServicesImage25,
+  ServicesImage26,
+  ServicesImage7,
+  ServicesImage8,
+  ServicesImage9,
 } from "assets/images/jpg";
 
 const ServicesView = () => {
@@ -62,19 +84,15 @@ const ServicesView = () => {
       images: [
         {
           id: 1,
-          image: newsHouseImage1,
+          image: ServicesImage18,
         },
         {
           id: 2,
-          image: newsHouseImage2,
+          image: ServicesImage19,
         },
         {
           id: 3,
-          image: newsHouseImage3,
-        },
-        {
-          id: 4,
-          image: newsHouseImage4,
+          image: ServicesImage20,
         },
       ],
       listData: [
@@ -216,19 +234,15 @@ const ServicesView = () => {
       images: [
         {
           id: 1,
-          image: newsHouseImage1,
+          image: newsHouseImage15,
         },
         {
           id: 2,
-          image: newsHouseImage2,
+          image: newsHouseImage16,
         },
         {
           id: 3,
-          image: newsHouseImage3,
-        },
-        {
-          id: 4,
-          image: newsHouseImage4,
+          image: newsHouseImage17,
         },
       ],
       listData: [
@@ -241,7 +255,6 @@ const ServicesView = () => {
               text: `
               Property Lockdown: We secure all entry points, including doors, windows, and gates, to prevent unauthorized access and ensure your property is safe.
               `,
-            
             },
 
             {
@@ -267,10 +280,9 @@ const ServicesView = () => {
               text: `
               Emergency Response: In the event of a security breach or emergency, our team is available to respond promptly and take necessary actions to mitigate any risks.
               `,
-            }
+            },
           ],
         },
-
 
         {
           id: 2,
@@ -325,19 +337,19 @@ const ServicesView = () => {
       images: [
         {
           id: 1,
-          image: newsHouseImage1,
+          image: ServicesImage23,
         },
         {
           id: 2,
-          image: newsHouseImage2,
+          image: ServicesImage24,
         },
         {
           id: 3,
-          image: newsHouseImage3,
+          image: ServicesImage25,
         },
         {
           id: 4,
-          image: newsHouseImage4,
+          image: ServicesImage26,
         },
       ],
       listData: [
@@ -454,19 +466,11 @@ const ServicesView = () => {
       images: [
         {
           id: 1,
-          image: newsHouseImage1,
+          image: ServicesImage21,
         },
         {
           id: 2,
-          image: newsHouseImage2,
-        },
-        {
-          id: 3,
-          image: newsHouseImage3,
-        },
-        {
-          id: 4,
-          image: newsHouseImage4,
+          image: ServicesImage22,
         },
       ],
       listData: [
@@ -602,19 +606,19 @@ const ServicesView = () => {
       images: [
         {
           id: 1,
-          image: newsHouseImage1,
+          image: ServicesImage7,
         },
         {
           id: 2,
-          image: newsHouseImage2,
+          image: ServicesImage8,
         },
         {
           id: 3,
-          image: newsHouseImage3,
+          image: ServicesImage9,
         },
         {
           id: 4,
-          image: newsHouseImage4,
+          image: ServicesImage10,
         },
       ],
       listData: [
@@ -651,9 +655,9 @@ const ServicesView = () => {
               text: `
             Every property is unique, and so are our cleanout solutions. Whether it’s a residential, corporate building, or undeveloped land, our REO property services are tailored to meet all your cleanup needs. Your account manager is always on hand to provide upfront quotes, schedule services, and address any questions.
             `,
-            }
+            },
           ],
-        }
+        },
       ],
     },
     {
@@ -743,7 +747,7 @@ Lawn Maintenance: Regular care plans customized to your lawn's specific needs an
               text: `
               Quality Assurance: We prioritize quality in every aspect of our work. Our inspection reports are meticulous and comprehensive, providing you with a clear understanding of your property's condition. Similarly, our lawn care services are performed with attention to detail to ensure optimal results.
             `,
-            }
+            },
           ],
         },
         {
@@ -755,7 +759,7 @@ Lawn Maintenance: Regular care plans customized to your lawn's specific needs an
               text: `
           At Fix&Frame, we are committed to delivering exceptional service and superior results in inspection services and lawn maintenance. Whether you're looking to enhance curb appeal, maintain property value, or ensure a safe and inviting outdoor environment, you can trust us to provide reliable, professional, and personalized care.
             `,
-            }
+            },
           ],
         },
       ],

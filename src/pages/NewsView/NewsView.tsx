@@ -3,25 +3,28 @@ import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import {
   HeroImage1,
-  newsHouseImage1,
   newsHouseImage10,
   newsHouseImage11,
   newsHouseImage12,
   newsHouseImage13,
   newsHouseImage14,
   newsHouseImage15,
-  // newsHouseImage16,
-  // newsHouseImage17,
-  // newsHouseImage18,
-  // newsHouseImage19,
-  newsHouseImage2,
   newsHouseImage3,
-  newsHouseImage4,
   newsHouseImage5,
   newsHouseImage6,
   newsHouseImage7,
   newsHouseImage8,
   newsHouseImage9,
+  ServicesImage27,
+  ServicesImage28,
+  ServicesImage29,
+  ServicesImage30,
+  ServicesImage31,
+  ServicesImage32,
+  ServicesImage33,
+  ServicesImage34,
+  ServicesImage35,
+  ServicesImage36,
 } from "assets/images/jpg";
 
 const NewsView = () => {
@@ -70,19 +73,15 @@ const NewsView = () => {
       images: [
         {
           id: 1,
-          image: newsHouseImage1,
+          image: ServicesImage27,
         },
         {
           id: 2,
-          image: newsHouseImage2,
+          image: ServicesImage28,
         },
         {
           id: 3,
-          image: newsHouseImage3,
-        },
-        {
-          id: 4,
-          image: newsHouseImage4,
+          image: ServicesImage29,
         },
       ],
       listData: [
@@ -153,7 +152,8 @@ const NewsView = () => {
           ],
         },
       ],
-      title: "Transforming Spaces: Experts in Retail and Residential Construction Services bу Fix&Frame",
+      title:
+        "Transforming Spaces: Experts in Retail and Residential Construction Services bу Fix&Frame",
       text: `
         Creating an inviting ambiance and a captivating design can continually draw devoted customers
         to your business. From the outward appearance to the internal intricacies, every facet of a
@@ -263,19 +263,19 @@ const NewsView = () => {
       images: [
         {
           id: 1,
-          image: newsHouseImage9,
+          image: ServicesImage30,
         },
         {
           id: 2,
-          image: newsHouseImage10,
+          image: ServicesImage31,
         },
         {
           id: 3,
-          image: newsHouseImage3,
+          image: ServicesImage32,
         },
         {
           id: 4,
-          image: newsHouseImage11,
+          image: ServicesImage33,
         },
       ],
       title: "Landscape and Snow Removal",
@@ -323,7 +323,7 @@ const NewsView = () => {
             },
           ],
         },
-        ]
+      ],
     },
 
     {
@@ -331,19 +331,15 @@ const NewsView = () => {
       images: [
         {
           id: 1,
-          image: newsHouseImage12,
+          image: ServicesImage34,
         },
         {
           id: 2,
-          image: newsHouseImage13,
+          image: ServicesImage35,
         },
         {
           id: 3,
-          image: newsHouseImage14,
-        },
-        {
-          id: 4,
-          image: newsHouseImage15,
+          image: ServicesImage36,
         },
       ],
       title: "Building Your Dream Bathroom",
@@ -362,7 +358,8 @@ const NewsView = () => {
               text: `The bathroom is one of the most used rooms in your home where you can relax and unwind after a long day.
           Updating this space or adding a new bathroom is one of the best ways to add value to your home.  
           Team can help you plan, design, and coordinate the perfect bathroom remodel that fits in your budget.
-`},
+`,
+            },
             {
               text: `
                 While we understand that renovating your bathroom can be thrilling, it can also be daunting.
@@ -405,7 +402,6 @@ const NewsView = () => {
         },
       ],
     },
-
   ];
 
   const { id } = useParams();

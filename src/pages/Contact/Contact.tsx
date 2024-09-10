@@ -7,6 +7,7 @@ import {
   ContactMediaIcon3,
 } from "assets/images/svg";
 
+//Contact
 const Contact = () => {
   useEffect(() => {
     window.scrollTo({

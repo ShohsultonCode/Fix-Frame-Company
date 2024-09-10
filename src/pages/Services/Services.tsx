@@ -5,12 +5,19 @@ import { Link } from "react-router-dom";
 import {
   // ContactImage,
   HeroImage4,
-  ServicesImage1,
-  ServicesImage2,
-  ServicesImage3,
-  ServicesImage4,
-  ServicesImage5,
-  ServicesImage6,
+  newsHouseImage1,
+  // newsHouseImage15,
+  newsHouseImage16,
+  // ServicesImage1,
+  ServicesImage18,
+  // ServicesImage2,
+  ServicesImage21,
+  ServicesImage23,
+  // ServicesImage3,
+  // ServicesImage4,
+  // ServicesImage5,
+  // ServicesImage6,
+  ServicesImage7,
 } from "assets/images/jpg";
 
 const Services = () => {
@@ -39,32 +46,32 @@ const Services = () => {
   const servicesData: servicesDataTypes[] = [
     {
       id: 1,
-      image: ServicesImage1,
+      image: newsHouseImage1,
       title: "Inspection Services and Lawn Mainten...",
     },
     {
       id: 2,
-      image: ServicesImage2,
+      image: ServicesImage7,
       title: "Debris removal",
     },
     {
       id: 3,
-      image: ServicesImage3,
+      image: newsHouseImage16,
       title: "Securing and Boarding",
     },
     {
       id: 4,
-      image: ServicesImage4,
+      image: ServicesImage18,
       title: "Property winterization",
     },
     {
       id: 5,
-      image: ServicesImage5,
+      image: ServicesImage21,
       title: "Maid Service (Cleaning)",
     },
     {
       id: 6,
-      image: ServicesImage6,
+      image: ServicesImage23,
       title: "Repairs and Damages",
     },
   ];

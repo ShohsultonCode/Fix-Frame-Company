@@ -13,14 +13,14 @@ import {
 } from "assets/images/svg";
 import {
   HeroImage2,
-  newsHouseImage12,
-  newsHouseImage13,
-  newsHouseImage14,
-  newsHouseImage15,
-  newsHouseImage16,
-  newsHouseImage17,
-  newsHouseImage18,
-  newsHouseImage19,
+  // newsHouseImage12,
+  // newsHouseImage13,
+  // newsHouseImage14,
+  // newsHouseImage15,
+  // newsHouseImage16,
+  // newsHouseImage17,
+  // newsHouseImage18,
+  // newsHouseImage19,
   ServicesImage27,
   ServicesImage28,
   ServicesImage29,
@@ -28,6 +28,13 @@ import {
   newsHouseImage6,
   newsHouseImage7,
   newsHouseImage8,
+  ServicesImage30,
+  ServicesImage31,
+  ServicesImage32,
+  ServicesImage33,
+  ServicesImage34,
+  ServicesImage35,
+  ServicesImage36,
 } from "assets/images/jpg";
 
 const News = () => {
@@ -105,19 +112,19 @@ const News = () => {
       images: [
         {
           id: 1,
-          image: newsHouseImage16,
+          image: ServicesImage30,
         },
         {
           id: 2,
-          image: newsHouseImage17,
+          image: ServicesImage31,
         },
         {
           id: 3,
-          image: newsHouseImage18,
+          image: ServicesImage32,
         },
         {
           id: 4,
-          image: newsHouseImage19,
+          image: ServicesImage33,
         },
       ],
       title: "Landscape and Snow Removal",
@@ -130,19 +137,15 @@ const News = () => {
       images: [
         {
           id: 1,
-          image: newsHouseImage12,
+          image: ServicesImage34,
         },
         {
           id: 2,
-          image: newsHouseImage13,
+          image: ServicesImage35,
         },
         {
           id: 3,
-          image: newsHouseImage14,
-        },
-        {
-          id: 4,
-          image: newsHouseImage15,
+          image: ServicesImage36,
         },
       ],
       title: "Building Your Dream Bathroom",

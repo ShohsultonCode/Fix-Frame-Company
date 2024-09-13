@@ -6,7 +6,7 @@ import { SliderImage1, SliderImage2 } from "assets/images/png";
 
 const Slider = () => {
   const backgroundImage1 = {
-    height: "580px",
+    height: "550px",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center center",
@@ -14,7 +14,7 @@ const Slider = () => {
   };
 
   const backgroundImage2 = {
-    height: "580px",
+    height: "550px",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center center",
@@ -92,66 +92,42 @@ const Slider = () => {
         >
           <SwiperSlide className="slider__item">
             <div className="slider__image" style={backgroundImage1}>
-              <div className="slider__content">
-                <h2 className="slider__content-title">-Nelson Daniel Roy</h2>
-                <span className="slider__content-job">Vendor Coordinator</span>
-              </div>
+            
             </div>
           </SwiperSlide>
           <SwiperSlide className="slider__item">
             <div className="slider__image" style={backgroundImage2}>
-              <div className="slider__content">
-                <h2 className="slider__content-title">Nripen Mandal</h2>
-                <span className="slider__content-job">Processor</span>
-              </div>
+             
             </div>
           </SwiperSlide>
           <SwiperSlide className="slider__item">
             <div className="slider__image" style={backgroundImage1}>
-              <div className="slider__content">
-                <h2 className="slider__content-title">Mike Bielovas</h2>
-                <span className="slider__content-job">Operations Manager</span>
-              </div>
+           
             </div>
           </SwiperSlide>
           <SwiperSlide className="slider__item">
             <div className="slider__image" style={backgroundImage2}>
-              <div className="slider__content">
-                <h2 className="slider__content-title">Salim Philip</h2>
-                <span className="slider__content-job">Asistant</span>
-              </div>
+    
             </div>
           </SwiperSlide>
           <SwiperSlide className="slider__item">
             <div className="slider__image" style={backgroundImage1}>
-              <div className="slider__content">
-                <h2 className="slider__content-title">Mike Bielovas</h2>
-                <span className="slider__content-job">Operations Manager</span>
-              </div>
+       
             </div>
           </SwiperSlide>
           <SwiperSlide className="slider__item">
             <div className="slider__image" style={backgroundImage2}>
-              <div className="slider__content">
-                <h2 className="slider__content-title">Salim Philip</h2>
-                <span className="slider__content-job">Asistant</span>
-              </div>
+             
             </div>
           </SwiperSlide>
           <SwiperSlide className="slider__item">
             <div className="slider__image" style={backgroundImage1}>
-              <div className="slider__content">
-                <h2 className="slider__content-title">Mike Bielovas</h2>
-                <span className="slider__content-job">Operations Manager</span>
-              </div>
+            
             </div>
           </SwiperSlide>
           <SwiperSlide className="slider__item">
             <div className="slider__image" style={backgroundImage2}>
-              <div className="slider__content">
-                <h2 className="slider__content-title">Salim Philip</h2>
-                <span className="slider__content-job">Asistant</span>
-              </div>
+              
             </div>
           </SwiperSlide>
         </Swiper>

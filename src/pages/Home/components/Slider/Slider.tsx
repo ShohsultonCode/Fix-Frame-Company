@@ -2,7 +2,7 @@ import "./style.scss";
 import { Button } from "components";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { SliderImage1, SliderImage2 } from "assets/images/png";
+import { SliderImage1, SliderImage2, SliderImage3, SliderImage4, SliderImage5, SliderImage6 } from "assets/images/png";
 
 const Slider = () => {
   const backgroundImage1 = {
@@ -20,6 +20,39 @@ const Slider = () => {
     backgroundPosition: "center center",
     backgroundImage: `url(${SliderImage2})`,
   };
+  
+  const backgroundImage3 = {
+    height: "550px",
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center center",
+    backgroundImage: `url(${SliderImage3})`,
+  };
+  const backgroundImage4 = {
+    height: "550px",
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center center",
+    backgroundImage: `url(${SliderImage4})`,
+  };
+
+  const backgroundImage5 = {
+    height: "550px",
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center center",
+    backgroundImage: `url(${SliderImage5})`,
+  };
+
+  const backgroundImage6 = {
+    height: "550px",
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center center",
+    backgroundImage: `url(${SliderImage6})`,
+  };
+
+
 
   return (
     <section className="slider">
@@ -101,35 +134,26 @@ const Slider = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="slider__item">
-            <div className="slider__image" style={backgroundImage1}>
+            <div className="slider__image" style={backgroundImage3}>
            
             </div>
           </SwiperSlide>
           <SwiperSlide className="slider__item">
-            <div className="slider__image" style={backgroundImage2}>
+            <div className="slider__image" style={backgroundImage4}>
     
             </div>
           </SwiperSlide>
           <SwiperSlide className="slider__item">
-            <div className="slider__image" style={backgroundImage1}>
+            <div className="slider__image" style={backgroundImage5}>
        
             </div>
           </SwiperSlide>
           <SwiperSlide className="slider__item">
-            <div className="slider__image" style={backgroundImage2}>
+            <div className="slider__image" style={backgroundImage6}>
              
             </div>
           </SwiperSlide>
-          <SwiperSlide className="slider__item">
-            <div className="slider__image" style={backgroundImage1}>
-            
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="slider__item">
-            <div className="slider__image" style={backgroundImage2}>
-              
-            </div>
-          </SwiperSlide>
+
         </Swiper>
       </div>
     </section>

@@ -6,7 +6,7 @@ import { SliderImage1, SliderImage2 } from "assets/images/png";
 
 const Slider = () => {
   const backgroundImage1 = {
-    height: "490px",
+    height: "580px",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center center",
@@ -14,7 +14,7 @@ const Slider = () => {
   };
 
   const backgroundImage2 = {
-    height: "490px",
+    height: "580px",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center center",

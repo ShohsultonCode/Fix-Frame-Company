@@ -69,6 +69,9 @@ import {
   ServicesImage34,
   ServicesImage35,
   ServicesImage36,
+  ServicesImage37,
+ServicesImage38,
+ServicesImage39
 } from "./services";
 
 export {
@@ -124,6 +127,9 @@ export {
   ServicesImage34,
   ServicesImage35,
   ServicesImage36,
+  ServicesImage37,
+ServicesImage38,
+ServicesImage39,
   newsHouseImage1,
   newsHouseImage2,
   newsHouseImage3,

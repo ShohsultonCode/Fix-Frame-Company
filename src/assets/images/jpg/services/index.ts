@@ -34,6 +34,9 @@ import ServicesImage33 from "./services-image-33.jpg";
 import ServicesImage34 from "./services-image-34.jpg";
 import ServicesImage35 from "./services-image-35.jpg";
 import ServicesImage36 from "./services-image-36.jpg";
+import ServicesImage37 from "./services-image-37.jpg";
+import ServicesImage38 from "./services-image-38.jpg";
+import ServicesImage39 from "./services-image-39.jpg";
 
 export {
   ServicesImage1,
@@ -72,4 +75,7 @@ export {
   ServicesImage34,
   ServicesImage35,
   ServicesImage36,
+  ServicesImage37,
+ServicesImage38,
+ServicesImage39
 };

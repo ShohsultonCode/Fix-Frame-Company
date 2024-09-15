@@ -148,6 +148,7 @@ const Footer = () => {
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5943.103695846509!2d-88.082834!3d41.859472!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e53837e51b83b%3A0x9211aa680a29e6a!2s1715%20E%20Roosevelt%20Rd%2C%20Wheaton%2C%20IL%2060187!5e0!3m2!1sen!2sus!4v1724692070609!5m2!1sen!2sus"
       ></iframe>
     </footer>
+
   );
 };
 

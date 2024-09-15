@@ -323,6 +323,41 @@ const NewsView = () => {
             },
           ],
         },
+        {
+          id: 3,
+          title: "Snow Removal Services:",
+          data: [
+            {
+              text: `Snow removal services ensure safe and accessible pathways during winter months.`,
+            },
+          ],
+        },
+        {
+          id: 4,
+          title: "These services include:",
+          data: [
+            {
+              text: `-Snow Plowing: Clearing snow from driveways, parking lots, and roads.`,
+            },
+            {
+              text: `-Snow Blowing: Using snow blowers to remove snow from walkways, sidewalks, and smaller areas.`,
+            },
+            {
+              text: `-Shoveling: Manually clearing snow from steps, porches, and areas not accessible by machinery.`,
+            },
+            {
+              text: `-De-Icing: Applying salt or other de-icing agents to prevent ice formation and ensure surfaces are safe to walk or drive on.`,
+            },
+            {
+              text: `-Snow Hauling: Transporting excess snow to designated areas when it accumulates to an obstructive level.`,
+            },
+            {
+              text: `
+Both landscaping and snow removal services play crucial roles in maintaining
+ the beauty and safety of residential and commercial properties year-round.`,
+            },
+          ],
+        },
       ],
     },
 

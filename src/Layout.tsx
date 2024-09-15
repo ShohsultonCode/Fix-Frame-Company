@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { Footer, Header } from "./components";
+import FooterLast from "components/layouts/Lastfooter";
 
 const Layout = () => {
   return (
@@ -8,7 +9,8 @@ const Layout = () => {
       <main className="main">
         <Outlet />
       </main>
-      <Footer />
+      <Footer/>
+      <FooterLast/>
     </>
   );
 };

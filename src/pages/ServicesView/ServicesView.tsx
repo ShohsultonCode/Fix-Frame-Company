@@ -10,9 +10,9 @@ import {
   // newsHouseImage12,
   // newsHouseImage13,
   // newsHouseImage14,
-  newsHouseImage15,
-  newsHouseImage16,
-  newsHouseImage17,
+  // newsHouseImage15,
+  // newsHouseImage16,
+  // newsHouseImage17,
   // newsHouseImage18,
   // newsHouseImage19,
   newsHouseImage2,
@@ -28,6 +28,9 @@ import {
   ServicesImage24,
   ServicesImage25,
   ServicesImage26,
+  ServicesImage37,
+  ServicesImage38,
+  ServicesImage39,
   ServicesImage7,
   ServicesImage8,
   ServicesImage9,
@@ -98,7 +101,7 @@ const ServicesView = () => {
       listData: [
         {
           id: 1,
-          title: "Comprehensive REO Property Clean-Out and Debris Removal ",
+          title: "",
           data: [
             {
               id: 1,
@@ -144,7 +147,7 @@ const ServicesView = () => {
         //         making your property market-ready more quickly. Choosing LoadUp for your REO
         //         cleanout and eco-friendly disposal needs ensures a streamlined experience.
         //       `,
-        //     },
+        //     }, 
         //   ],
         // },
         // {
@@ -234,15 +237,15 @@ const ServicesView = () => {
       images: [
         {
           id: 1,
-          image: newsHouseImage15,
+          image: ServicesImage37
         },
         {
           id: 2,
-          image: newsHouseImage16,
+          image: ServicesImage38,
         },
         {
           id: 3,
-          image: newsHouseImage17,
+          image: ServicesImage39,
         },
       ],
       listData: [

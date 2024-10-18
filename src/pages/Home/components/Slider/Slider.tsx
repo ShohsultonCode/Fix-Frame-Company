@@ -2,7 +2,7 @@ import "./style.scss";
 import { Button } from "components";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { SliderImage1, SliderImage2, SliderImage3, SliderImage4, SliderImage5, SliderImage6 } from "assets/images/png";
+import { SliderImage1,  SliderImage3, SliderImage4, SliderImage5, SliderImage6 } from "assets/images/png";
 
 const Slider = () => {
   const backgroundImage1 = {
@@ -13,14 +13,7 @@ const Slider = () => {
     backgroundImage: `url(${SliderImage1})`,
   };
 
-  const backgroundImage2 = {
-    height: "550px",
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    backgroundPosition: "center center",
-    backgroundImage: `url(${SliderImage2})`,
-  };
-  
+
   const backgroundImage3 = {
     height: "550px",
     backgroundSize: "cover",
@@ -128,11 +121,7 @@ const Slider = () => {
             
             </div>
           </SwiperSlide>
-          <SwiperSlide className="slider__item">
-            <div className="slider__image" style={backgroundImage2}>
              
-            </div>
-          </SwiperSlide>
           <SwiperSlide className="slider__item">
             <div className="slider__image" style={backgroundImage3}>
            

@@ -3,7 +3,7 @@ import { Button } from "components";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { SliderImage1,  SliderImage3, SliderImage4, SliderImage5, SliderImage6 } from "assets/images/png";
-
+//sliders
 const Slider = () => {
   const backgroundImage1 = {
     height: "550px",
